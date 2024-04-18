@@ -88,7 +88,7 @@ div .home-header {
 .layout-1 {
     margin: 1px 10px;
     display: flex;
-    width: 350px;
+    width: 100%;
     flex-basis: 190px;
     flex-wrap: nowrap;
     align-content: center;
@@ -96,6 +96,7 @@ div .home-header {
 
 }
 .layout-2 {
+    width: 100%;
     margin: 1px 10px;
     display: inline-flex;
     justify-content: center;
@@ -116,13 +117,29 @@ table {
 }
 .headers {
     text-align: center;
+    display: block;
     margin: 1px;
     padding: 1px;
     background-color: rgb(1, 46, 58);
     border-bottom: 5px solid rgb(0, 21, 27);
 }
+.heading {
+    position: relative;
+    display: flex;
+    line-height: 1;
+}
+.hgroup {
+    display: inline-flex;
+    margin: 4px;
+    padding: 4px;
+}
+.heading .hgroup {
+    display: inline-flex;
+    margin: 4px;
+    padding: 4px;
+}
 .icons {
-    aspect-ratio: auto 24 / 24;
+    float: inline-start;
     width: 24px;
     height: 24px;
 }
@@ -130,8 +147,21 @@ table {
     margin-left: auto;
 }
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
+}
+heading .icon {
+    position: absolute;
+    right: var(--infocard-icon-right-offset);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: var(--iconsize);
+    height: var(--iconsize);
 }
 .c-table {
     border: 1px #aaa solid;
