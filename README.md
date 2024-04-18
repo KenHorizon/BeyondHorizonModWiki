@@ -1,5 +1,6 @@
 # CHANGELOG
-https://kenhorizon.github.io/BeyondHorizonModWiki/
+
+![screenshot](assets/img/title.png)
 
 # 1.0
   - Release Version
