@@ -78,11 +78,11 @@ div .home-header {
     margin: -3vh auto;
 }
 .layout {
+    padding: 10px;
     margin: 15px 10%;
     color: white;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.381);
 }
 .layout-1 {
@@ -116,8 +116,10 @@ table {
 }
 .headers {
     text-align: center;
+    margin: 1px;
     padding: 1px;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(1, 46, 58);
+    border-bottom: 5px solid rgb(0, 21, 27);
 }
 .icons {
     aspect-ratio: auto 24 / 24;
