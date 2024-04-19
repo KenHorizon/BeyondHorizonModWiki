@@ -144,16 +144,18 @@ div .home-header {
     display: flex;
     line-height: 1;
 }
+.text-icons {
+    align-self: center;
+    margin: 0px 10px;
+}
 .icons-text {
-    position: relative;
-    display: inline-flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    align-self: center;
+    display: flex;
+
 }
 .icons {
-    align-self: center;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     image-rendering: pixelated;
 }
 .icons>a:first-child {
