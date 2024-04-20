@@ -8,12 +8,28 @@ body {
     background-image: url("../img/backgrounds.jpg");
     background-attachment: fixed;
 }
-
+a:link.button, a:visited.button, a:active.button, a:link.button-selected, a:visited.button-selected, a:active.button-selected {
+    color: rgb(255, 255, 255);
+}
+a:link {
+    color: rgb(0, 98, 177);
+}
+a:visited {
+    color: rgb(0, 98, 177);
+}
+a:active {
+  color: rgb(255, 234, 0);
+  background-color: transparent;
+}
 table, th, td {
-    padding: 10px;
-    width: 380px;
+    padding: 5px;
+    width: auto;
     border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.381);
+    background-color: rgb(44, 44, 44);
+    border-collapse: collapse;
+}
+.table-header {
+    background-color: rgb(31, 31, 31);
     border-collapse: collapse;
 }
 .page-section {
@@ -30,7 +46,7 @@ table, th, td {
     height: 75%;
     margin: 20px;
 }
-div .home-header {
+div.home-header {
     align-items: center;
     width: 25%;
     height: 75%;
@@ -76,10 +92,6 @@ div .home-header {
     color: white;
     display: flex;
     flex-wrap: nowrap;
-}
-.centered-text {
-    display: inline-flex;
-    vertical-align: middle;
 }
 .layout {
     padding: 10px;
@@ -163,12 +175,6 @@ div .home-header {
 }
 img {
     overflow: clip;
-}
-.c-table {
-    border: 1px #aaa solid;
-    padding: 8px;
-    border-radius: 6px;
-    position: relative;
 }
 /*----- RESPONSIVE -----*/
 @media only screen and (max-width: 620px) {

@@ -40,11 +40,11 @@
         <h2> Buff Potions</h2>
         <table style="width: 100%;">
             <tr>
-                <th>Potions</th>
-                <th>Reagent, Base</th>
-                <th>Extended</th>
-                <th>Enchanced</th>
-                <th>Effects</th>
+                <th class="table-header" style="width: 15%;">Potions</th>
+                <th class="table-header" style="width: 10%;">Reagent, Base</th>
+                <th class="table-header" style="width: 15%;">Extended</th>
+                <th class="table-header" style="width: 15%;">Enchanced</th>
+                <th class="table-header" style="width: 45%;">Effects</th>
             </tr>
             <tr>
                 <th>Resistance Potion (3:10)</th>
@@ -125,7 +125,9 @@
                     </span>
                 </th>
                 <th>
-                    (Duration: 1:30)
+                    I: (Duration: 1:30)
+                    <br><br>
+                    II: (Duration: 0: 30)
                 </th>
                 <th>
                     Iron Skin I > II
@@ -172,7 +174,9 @@
                 </span>
                 </th>
                 <th>
-                    (Duration: 1:50)
+                    I: (Duration: 1:50)
+                    <br><br>
+                    II: (Duration: 0: 50)
                 </th>
                 <th>
                     Rage I > II
@@ -221,7 +225,7 @@
                 </span>
                 </th>
                 <th>
-                    (Duration: 0:50)
+                    I: (Duration: 0:50)
                 </th>
                 <th>
                     -
@@ -267,9 +271,10 @@
                 </th>
                 <th>
                     I : (Duration: 0:50)
+                    II : (Duration: 0:20)
                 </th>
                 <th>
-                    -
+                    Thorn I > II
                 </th>
                 <th>
                     Thorn I: Deal (25% attacker's damage dealt) to attacker
@@ -283,11 +288,11 @@
         <h2> Negative Potions</h2>
         <table style="width: 100%;">
             <tr>
-                <th>Potions</th>
-                <th>Reagent, Base</th>
-                <th>Extended</th>
-                <th>Enchanced</th>
-                <th>Effects</th>
+                <th class="table-header" style="width: 15%;">Potions</th>
+                <th class="table-header" style="width: 10%;">Reagent, Base</th>
+                <th class="table-header" style="width: 15%;">Extended</th>
+                <th class="table-header" style="width: 15%;">Enchanced</th>
+                <th class="table-header" style="width: 45%;">Effects</th>
             </tr>
             <tr>
                 <th>Vulnerable Potion (0:50)</th>
@@ -325,7 +330,9 @@
                 </span>
                 </th>
                 <th>
-                    (Duration: 1:20)
+                    I : (Duration: 0:50)
+                    <br><br>
+                    II: (Duration: 1:20)
                 </th>
                 <th>
                     Vulnerable I > II
@@ -373,10 +380,12 @@
                 </span>
                 </th>
                 <th>
-                    (Duration: 2:30)
+                    I: (Duration: 2:30)
+                    <br><br>
+                    II: (Duration: 0:30)
                 </th>
                 <th>
-                    Vulnerable I > II
+                    Hunger I > II
                 </th>
                 <th>
                     <a href="https://minecraft.wiki/w/Hunger_(effect)" target="_blank"> Hunger I</a>: Increase food exhaustion 5% per tick
@@ -386,6 +395,56 @@
                 </th>
             </tr>
 
+            <tr>
+                <th>Lethal Potion (0:20)</th>
+                <th>
+                   <div>
+                        <span>
+                            <div class="brewing-stand grid-container">
+                                <div class="input-slot">
+                                </div>
+                                <div class="input-slot">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/spider_eye.png" alt="Spider Eye" title="Spider Eye">
+                                    </span>
+                                </div>
+                                <div class="input-slot">
+                                </div>
+                                <div class="output-slot-1">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                                <div class="output-slot-2">
+                                    <span>
+                                        <img class="item akward-potion" src="assets/img/icon/brewing/harming_potion.png" alt="Harming Potion" title="Harming Potion">
+                                    </span>
+                                </div>
+                                <div class="output-slot-3">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                            </div>
+                        </span>
+                   </div>
+                </span>
+                </th>
+                <th>
+                    I: (Duration: 0:30)
+                    <br><br>
+                    II: (Duration: 0:10)
+                </th>
+                <th>
+                    Hunger I > II
+                </th>
+                <th>
+                    Lethal Poison I: Deadly version of Poison can kill even it drop 1% health
+                    <br>
+                    <br>
+                    Lethal Poison II: Deadly version of Poison can kill even it drop 1% health
+                </th>
+            </tr>
         </table>
     </div>
 </div>
