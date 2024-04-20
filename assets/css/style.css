@@ -4,9 +4,11 @@ html {
 body {
     font-size: 16px;
     overflow: auto;
-    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-size: 5%;
     background-image: url("../img/backgrounds.jpg");
     background-attachment: fixed;
+    image-rendering: pixelated;
 }
 a:link.button, a:visited.button, a:active.button, a:link.button-selected, a:visited.button-selected, a:active.button-selected {
     color: rgb(255, 255, 255);
@@ -21,11 +23,18 @@ a:active {
   color: rgb(255, 234, 0);
   background-color: transparent;
 }
-table, th, td {
+table {
     padding: 5px;
     width: auto;
-    border: 1px solid white;
-    background-color: rgb(44, 44, 44);
+    border: 5px solid rgb(30, 30, 30);
+    border-top: 5px solid rgb(71, 71, 71);
+    border-left: 5px solid rgb(71, 71, 71);
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    width: auto;
+    border-top: 5px solid rgb(71, 71, 71);
     border-collapse: collapse;
 }
 .table-header {
@@ -36,9 +45,12 @@ table, th, td {
     text-align: center;
     vertical-align: top;
     padding: 10px;
-    background-size: auto auto;
-    background-image: url("../img/header/body.png");
-    background-attachment: fixed;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid rgb(30, 30, 30);
+    border-top: 5px solid rgb(71, 71, 71);
+    border-left: 5px solid rgb(71, 71, 71);
+    background-color: rgb(42, 42, 42);
 }
 .header {
     align-items: center;
@@ -56,12 +68,18 @@ div.home-header {
     padding: 10px;
     display: inline-table;
 }
+.button-background {
+    border: 5px solid black;
+}
 .button {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
+    border: 3px solid rgb(30, 30, 30);
+    border-top: 3px solid rgb(44, 44, 44);
+    border-left: 3px solid rgb(44, 44, 44);
     background-color: rgba(20, 20, 20, 0.5);
     transition: 0.3s;
 }
@@ -71,17 +89,25 @@ div.home-header {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
+    border: 3px solid rgb(30, 30, 30);
+    border-top: 3px solid rgb(71, 71, 71);
+    border-left: 3px solid rgb(71, 71, 71);
     background-color: rgba(59, 59, 59, 0.5);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
     transition: 0.3s;
 }
 .button:hover {
-    background-color: rgba(168, 168, 168, 0.5);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
+    border: 3px solid rgb(30, 30, 30);
+    border-top: 3px solid rgb(71, 71, 71);
+    border-left: 3px solid rgb(71, 71, 71);
+    background-color: rgb(84, 84, 84);
+    box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
 .button:active {
+    border: 3px solid rgb(30, 30, 30);
+    border-top: 3px solid rgb(71, 71, 71);
+    border-left: 3px solid rgb(71, 71, 71);
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
+    box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
 .box {
     margin: 10px;
@@ -94,12 +120,13 @@ div.home-header {
     flex-wrap: nowrap;
 }
 .layout {
-    padding: 10px;
+    padding: 0px 10px;
     margin: 0.60em 0.85em;
     color: white;
-    border: 3px solid white;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.381);
+    border: 5px solid rgb(30, 30, 30);
+    border-top: 5px solid rgb(71, 71, 71);
+    border-left: 5px solid rgb(71, 71, 71);
+    background-color: rgb(45, 45, 45);
 }
 .layout-1 {
     display: flex;
@@ -128,8 +155,10 @@ div.home-header {
     margin: 0 auto;
     position: relative;
     display: inline-flex;
-    background-color: rgb(0, 46, 58);
-    border-bottom: 15px solid rgb(0, 31, 39);
+    border: 5px solid rgb(19, 19, 19);
+    border-top: 5px solid rgb(50, 50, 50);
+    border-left: 5px solid rgb(50, 50, 50);
+    background-color: rgb(28, 28, 28);
     flex-wrap: nowrap;
     width: 100%;
     flex-direction: row;
@@ -137,8 +166,10 @@ div.home-header {
 .headers {
     position: relative;
     display: inline-flex;
-    background-color: rgb(0, 46, 58);
-    border-bottom: 15px solid rgb(0, 31, 39);
+    border: 5px solid rgb(19, 19, 19);
+    border-top: 5px solid rgb(50, 50, 50);
+    border-left: 5px solid rgb(50, 50, 50);
+    background-color: rgb(28, 28, 28);
     flex-wrap: nowrap;
     flex-direction: row;
 }
