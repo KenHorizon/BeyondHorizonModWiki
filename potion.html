@@ -33,7 +33,7 @@
     <div  class="layout" style="width: 250px;">
         <h3 style="text-align: center;">Contents:</h3>
         <li><a href="potion.html#buffs"> Buff Potions</a></li>
-        <li><a href="potion.html#buffs"> Negative Potions</a></li>
+        <li><a href="potion.html#negative"> Negative Potions</a></li>
         <li><a href="potion.html#buffs"> Mixed Potions</a></li>
     </div>
     <div id="buffs">
@@ -49,10 +49,32 @@
             <tr>
                 <th>Resistance Potion (3:10)</th>
                 <th>
-                    <span>
-                        <div >
-                            <img class="item" src="assets/img/icon/brewing/shulker_shell.png">
-                            <img class="item akward-potion" src="assets/img/icon/brewing/potion.png" alt="Akward Potion">
+                    <span>  
+                        <div class="brewing-stand grid-container">
+                            <div class="input-slot">
+                            </div>
+                            <div class="input-slot">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/shulker_shell.png" alt="Shulker Shell" title="Shulker Shell">
+                                </span>
+                            </div>
+                            <div class="input-slot">
+                            </div>
+                            <div class="output-slot-1">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/air.png">
+                                </span>
+                            </div>
+                            <div class="output-slot-2">
+                                <span>
+                                    <img class="item akward-potion" src="assets/img/icon/brewing/potion.png" alt="Akward Potion" title="Akward Potion">
+                                </span>
+                            </div>
+                            <div class="output-slot-3">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/air.png">
+                                </span>
+                            </div>
                         </div>
                     </span>
                 </th>
@@ -63,13 +85,42 @@
                     Resistance I > II
                 </th>
                 <th>
-                   <a href="https://minecraft.wiki/w/Resistance" target="_blank">Resistance</a>: reduces incoming damage by 60% + (20% per level)
+                   <a href="https://minecraft.wiki/w/Resistance" target="_blank">Resistance</a>: reduces incoming damage by 20%
+                   <br><br>
+                   <a href="https://minecraft.wiki/w/Resistance" target="_blank">Resistance</a>: reduces incoming damage by 40%
                 </th>
             </tr>
             <tr>
                 <th>Iron Skin Potion (0:30)</th>
                 <th>
-
+                    <span>  
+                        <div class="brewing-stand grid-container">
+                            <div class="input-slot">
+                            </div>
+                            <div class="input-slot">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/raw_iron.png" alt="Raw Iron" title="Raw Iron">
+                                </span>
+                            </div>
+                            <div class="input-slot">
+                            </div>
+                            <div class="output-slot-1">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/air.png">
+                                </span>
+                            </div>
+                            <div class="output-slot-2">
+                                <span>
+                                    <img class="item akward-potion" src="assets/img/icon/brewing/potion.png" alt="Mundane Potion" title="Mundane Potion">
+                                </span>
+                            </div>
+                            <div class="output-slot-3">
+                                <span>
+                                    <img class="item" src="assets/img/icon/item/air.png">
+                                </span>
+                            </div>
+                        </div>
+                    </span>
                 </th>
                 <th>
                     (Duration: 1:30)
@@ -78,7 +129,9 @@
                     Iron Skin I > II
                 </th>
                 <th>
-                   Iron Skin: Gain Damage Reduction by 10% + (5% x level)
+                   Iron Skin I: Gain Damage Reduction by 10%
+                   <br><br>
+                   Iron Skin II: Gain Damage Reduction by 15%
                 </th>
             </tr>
             <tr>
@@ -86,7 +139,32 @@
                 <th>
                    <div>
                         <span>
-
+                            <div class="brewing-stand grid-container">
+                                <div class="input-slot">
+                                </div>
+                                <div class="input-slot">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/blaze_powder.png" alt="Shulker Shell" title="Shulker Shell">
+                                    </span>
+                                </div>
+                                <div class="input-slot">
+                                </div>
+                                <div class="output-slot-1">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                                <div class="output-slot-2">
+                                    <span>
+                                        <img class="item akward-potion" src="assets/img/icon/brewing/strength_potion.png" alt="Strength Potion" title="Strength Potion">
+                                    </span>
+                                </div>
+                                <div class="output-slot-3">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                            </div>
                         </span>
                    </div>
                 </span>
@@ -98,7 +176,116 @@
                     Rage I > II
                 </th>
                 <th>
-                    Rage: Increase damage dealt by 10% and Movement speed by 2%
+                    Rage I: Increase damage dealt by 10% and Movement speed by 2%
+                    <br>
+                    <br>
+                    Rage II: Increase damage dealt by 15% and Movement speed by 4
+                </th>
+            </tr>
+            
+            <tr>
+                <th>Antidote Potion (0:30)</th>
+                <th>
+                   <div>
+                        <span>
+                            <div class="brewing-stand grid-container">
+                                <div class="input-slot">
+                                </div>
+                                <div class="input-slot">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/milk_bucket.png" alt="Milk Bucket" title="Milk Bucket">
+                                    </span>
+                                </div>
+                                <div class="input-slot">
+                                </div>
+                                <div class="output-slot-1">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                                <div class="output-slot-2">
+                                    <span>
+                                        <img class="item akward-potion" src="assets/img/icon/brewing/potion.png" alt="Akward Potion" title="Akward Potion">
+                                    </span>
+                                </div>
+                                <div class="output-slot-3">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                            </div>
+                        </span>
+                   </div>
+                </span>
+                </th>
+                <th>
+                    (Duration: 0:50)
+                </th>
+                <th>
+                    -
+                </th>
+                <th>
+                    Antidote: Immune to negative effects
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div id="negative">
+        <h2> Negative Potions</h2>
+        <table style="width: 100%;">
+            <tr>
+                <th>Potions</th>
+                <th>Reagent, Base</th>
+                <th>Extended</th>
+                <th>Enchanced</th>
+                <th>Effects</th>
+            </tr>
+            <tr>
+                <th>Vulnerable Potion (0:50)</th>
+                <th>
+                   <div>
+                        <span>
+                            <div class="brewing-stand grid-container">
+                                <div class="input-slot">
+                                </div>
+                                <div class="input-slot">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/fermented_spider_eye.png" alt="Fermented Spider Eye" title="Fermented Spider Eye">
+                                    </span>
+                                </div>
+                                <div class="input-slot">
+                                </div>
+                                <div class="output-slot-1">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                                <div class="output-slot-2">
+                                    <span>
+                                        <img class="item akward-potion" src="assets/img/icon/brewing/resistance_potion.png" alt="Resistance Potion" title="Resistance Potion">
+                                    </span>
+                                </div>
+                                <div class="output-slot-3">
+                                    <span>
+                                        <img class="item" src="assets/img/icon/item/air.png">
+                                    </span>
+                                </div>
+                            </div>
+                        </span>
+                   </div>
+                </span>
+                </th>
+                <th>
+                    (Duration: 1:20)
+                </th>
+                <th>
+                    Vulnerable I > II
+                </th>
+                <th>
+                    Vulnerable I: Increase damage taken by 10%
+                    <br>
+                    <br>
+                    Vulnerable I: Increase damage taken by 20%
                 </th>
             </tr>
         </table>
