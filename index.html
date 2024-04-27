@@ -9,18 +9,40 @@
 </head>
 <body>
 <script src="assets/js/lastest_support_version.js"></script>
-<div class="page-section">
-    <div>
-        <a href="index.html">
-            <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-        </a>
-    </div>
-    <div class="navigation">
-        <a class="button-selected" href="index.html">Home</a>
-        <a class="button" href="changelog.html">Changelog</a>
-        <a class="button" href="index.html">Download</a>
+<script src="assets/js/main.js"></script>
+<div class="desktop">
+    <div class="page-section">
+        <div>
+            <a href="index.html">
+                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button-selected" href="index.html">Home</a>
+            <a class="button" href="changelog.html">Changelog</a>
+            <a class="button" href="index.html">Download</a>
+        </div>
     </div>
 </div> 
+<div class="mobile">
+    <div class="page-section">
+        <div>
+            <a href="index.html">
+                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
+            </a>
+            <div id="mobile-menu-icon-button" onclick="toggleMobileMenu(this)">
+                <img class="mobile-menu-icon" src="assets/img/icon/mobile_menu_icon.png">
+                <div>
+                    <ul class="mobile-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="changelog.html">Changelog</a></li>
+                        <li><a href="index.html">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--
  THE MAIN BODY OF THE SITE
 -->
@@ -204,7 +226,7 @@
     <div class="layout">
         <span class="layout-1">
             <span class="layout-2">
-                <span class="features">
+                <span class="headers">
                     <div class="text-headers">
                         <h3>Features</h3>
                     </div>

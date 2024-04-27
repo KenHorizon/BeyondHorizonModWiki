@@ -10,6 +10,32 @@ body {
     background-attachment: fixed;
     image-rendering: pixelated;
 }
+.mobile, .mobile-background .page-section {
+    display: none;
+}
+#mobile-menu-icon-button {
+    image-rendering: pixelated;
+}
+.mobile-menu-icon {
+    width: 20%;
+}
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;
+}
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+.mobile .page-section {
+    margin: -0.60em -0.85em;
+}
 a:link.button, a:visited.button, a:active.button, a:link.button-selected, a:visited.button-selected, a:active.button-selected {
     color: rgb(255, 255, 255);
 }
@@ -20,21 +46,19 @@ a:visited {
     color: rgb(0, 98, 177);
 }
 a:active {
-  color: rgb(255, 234, 0);
-  background-color: transparent;
+    color: rgb(255, 234, 0);
+    background-color: transparent;
 }
 table {
     padding: 5px;
-    width: auto;
-    border: 5px solid rgb(30, 30, 30);
-    border-top: 5px solid rgb(71, 71, 71);
-    border-left: 5px solid rgb(71, 71, 71);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     border-collapse: collapse;
 }
 th, td {
     padding: 5px;
-    width: auto;
-    border-top: 5px solid rgb(71, 71, 71);
+    border-top: 2px solid rgb(71, 71, 71);
     border-collapse: collapse;
 }
 .table-header {
@@ -42,14 +66,13 @@ th, td {
     border-collapse: collapse;
 }
 .page-section {
+    margin: 0.60em 0.85em;
     text-align: center;
     vertical-align: top;
     padding: 10px;
-    width: 60%;
-    margin: 0 auto;
-    border: 5px solid rgb(30, 30, 30);
-    border-top: 5px solid rgb(71, 71, 71);
-    border-left: 5px solid rgb(71, 71, 71);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgb(42, 42, 42);
 }
 .header {
@@ -64,6 +87,9 @@ div.home-header {
     height: 75%;
     margin: 20px;
 }
+.navigation.mobile {
+    display: none;
+}
 .navigation {
     padding: 10px;
     display: inline-table;
@@ -77,9 +103,9 @@ div.home-header {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
-    border: 3px solid rgb(30, 30, 30);
-    border-top: 3px solid rgb(44, 44, 44);
-    border-left: 3px solid rgb(44, 44, 44);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(44, 44, 44);
+    border-left: 2px solid rgb(44, 44, 44);
     background-color: rgba(20, 20, 20, 0.5);
     transition: 0.3s;
 }
@@ -89,30 +115,30 @@ div.home-header {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
-    border: 3px solid rgb(30, 30, 30);
-    border-top: 3px solid rgb(71, 71, 71);
-    border-left: 3px solid rgb(71, 71, 71);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgba(59, 59, 59, 0.5);
     transition: 0.3s;
 }
 .button:hover {
-    border: 3px solid rgb(30, 30, 30);
-    border-top: 3px solid rgb(71, 71, 71);
-    border-left: 3px solid rgb(71, 71, 71);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgb(84, 84, 84);
     box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
 .button:active {
-    border: 3px solid rgb(30, 30, 30);
-    border-top: 3px solid rgb(71, 71, 71);
-    border-left: 3px solid rgb(71, 71, 71);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
 .box {
-    margin: 10px;
     color: white;
-    display: inline-flex;
+    display: flex;
+    width: auto;
 }
 .introduction {
     color: white;
@@ -123,9 +149,9 @@ div.home-header {
     padding: 0 auto;
     margin: 0.60em 0.85em;
     color: white;
-    border: 5px solid rgb(30, 30, 30);
-    border-top: 5px solid rgb(71, 71, 71);
-    border-left: 5px solid rgb(71, 71, 71);
+    border: 2px solid rgb(19, 19, 19);
+    border-top: 2px solid rgb(50, 50, 50);
+    border-left: 2px solid rgb(50, 50, 50);
     background-color: rgb(45, 45, 45);
 }
 .layout {
@@ -160,24 +186,12 @@ div.home-header {
     background-color: rgba(0, 0, 0, 0.381);
     border-collapse: collapse;
 }
-.features {
-    margin: 0 auto;
-    position: relative;
-    display: inline-flex;
-    border: 5px solid rgb(19, 19, 19);
-    border-top: 5px solid rgb(50, 50, 50);
-    border-left: 5px solid rgb(50, 50, 50);
-    background-color: rgb(28, 28, 28);
-    flex-wrap: nowrap;
-    width: 100%;
-    flex-direction: row;
-}
 .headers {
     position: relative;
     display: inline-flex;
-    border: 5px solid rgb(19, 19, 19);
-    border-top: 5px solid rgb(50, 50, 50);
-    border-left: 5px solid rgb(50, 50, 50);
+    border: 2px solid rgb(19, 19, 19);
+    border-top: 2px solid rgb(50, 50, 50);
+    border-left: 2px solid rgb(50, 50, 50);
     background-color: rgb(28, 28, 28);
     flex-wrap: nowrap;
     flex-direction: row;
@@ -218,31 +232,51 @@ img {
 }
 /*----- RESPONSIVE -----*/
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .navigation, .button, .button-selected {
-        display: block;
+    .button, .button-selected {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile-background .page-section {
+        margin: 0 auto;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        z-index: 1;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: fixed;
+        z-index: 1;
     }
     .header {
-        width: 75%;
+        float: left;
+        width: 45%;
         height: 75%;
+    }
+    .background {
+        margin: 0 auto;
+    }
+    .background .introduction {
+        bottom: 120px;
     }
     .page-section {
         background-size: 20vh auto;
     }
-    .layout {
-        display: inline-block;
-        margin: 1px 10px;
-        width: 90%;
+    .layout, .layout-1, .layout-2 {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
     .titles {
         display: inline-table;
         margin: -2vh auto;
         width: 20%;
-    }
-    .box {
-        margin: 20% 11%;
-        width: 250px;
-        height: auto;
     }
     .introduction {
         display:  block;
