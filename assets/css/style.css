@@ -259,7 +259,7 @@ img {
         height: 75%;
     }
     .background {
-        margin: 0 auto;
+        margin-top: 25px;
     }
     .background .introduction {
         bottom: 120px;
