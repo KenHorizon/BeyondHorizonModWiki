@@ -145,6 +145,7 @@ div.home-header {
     background-color: rgb(45, 45, 45);
 }
 .layout {
+    margin: 0 auto;
     padding: 10px;
     color: white;
     border: 2px solid rgb(30, 30, 30);
@@ -155,6 +156,7 @@ div.home-header {
 .layout-1 {
     display: flex;
     width: 100%;
+    margin: 0 auto;
     flex-basis: 190px;
     flex-wrap: nowrap;
     align-content: center;
@@ -162,7 +164,7 @@ div.home-header {
 
 }
 .layout-2 {
-    margin: 5px 10px;
+    margin: 0 auto;
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -219,6 +221,56 @@ div.home-header {
 img {
     overflow: clip;
 }
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li .dropdown {
+    width: 100%;
+    top: 10px;
+	position: relative;
+	display: inline-block;
+}
+.dropdown-icons {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+}
+.dropdown-header {
+    width: 60%;
+    margin: 12px;
+    image-rendering: pixelated;
+}
+.dropdown-content {
+    right: 0;
+    width: 110%;
+	display: none;
+    top: 80px;
+	position: absolute;
+	background-color: rgb(36, 37, 38);
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: rgb(255, 255, 255);
+	background-color: rgb(36, 37, 38);
+	padding: 0 16px;
+	height: 50px;
+	text-decoration: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+    flex-direction: column;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: rgb(72, 72, 72);
+}
 /*----- RESPONSIVE -----*/
 @media only screen and (max-width: 620px) {
     .button, .button-selected {
@@ -227,7 +279,7 @@ img {
     .desktop {
         display: none;
     }
-    .mobile-background .page-section {
+    .mobile {
         margin: 0 auto;
         height: 90px;
         display: flex;
@@ -244,16 +296,10 @@ img {
     .background {
         position: relative;
         top: 100px;
-        z-index: -1;
+        z-index: 0;
     }
     .page-section {
         background-size: 20vh auto;
-    }
-    .layout, .layout-1, .layout-2 {
-        display: flex;
-        margin: 0 auto;
-        flex-direction: column;
-        flex-wrap: nowrap;
     }
     .titles {
         display: inline-table;

@@ -1,242 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
     <title>Beyond Horizon | Effects</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <header class="desktop">
+        <div class="page-section">
+            <div>
+                <a href="index.html">
+                    <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+                </a>
+            </div>
+            <div class="navigation">
+                <a class="button-selected" href="index.html">Home</a>
+                <a class="button" href="changelog.html">Changelog</a>
+                <a class="button" href="index.html">Download</a>
+            </div>
+        </div>
+    </header>
+    <header class="mobile">
+        <div class="page-section">
+            <div class="navigation">
+                <a class="dropdown-header" href="index.html">
+                    <img class="dropdown-header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+                </a>
+                <ul>
+                    <li class="dropdown">
+                        <a>
+                            <img class="dropdown-icons" src="assets/img/icon/mobile_menu_icon.png" />
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="index.html">Home</a>
+                            <a href="changelog.html">Changelog</a>
+                            <a href="index.html">Download</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
 <body>
-<div class="page-section">
-    <div>
-        <a href="index.html">
-            <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-        </a>
+    <div class="background">
+        <div class="layout">
+            <div id="effect-home">
+                <h1>Effects</h1>
+                <p>An effect (also known as mob effect or status effect) is a helpful, harmful or a mostly useless
+                    condition
+                    that affects an entity. Effects can be inflicted in various ways throughout the game, including
+                    consuming potions and some food items, being in the range of <a
+                        href="https://minecraft.wiki/w/Beacon" target="_blank">beacons</a> and <a
+                        href="https://minecraft.wiki/w/Conduit" target="_blank">conduits</a>, and being attacked by or
+                    close to certain mobs.</p>
+            </div>
+            <span>
+                <table style="width: 100%;">
+                    <tr>
+                        <th class="table-header" style="width: 10%;">Icon</th>
+                        <th class="table-header" style="width: 20%;">Name</th>
+                        <th class="table-header">Effect</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/rage.png">
+                            </span>
+                        </th>
+                        <th>Rage</th>
+                        <th>
+                            Increase damage dealt by 10% (+5% * level) and movement speed by 2% (+2% * level)
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/antidote.png">
+                            </span>
+                        </th>
+                        <th>Antidote</th>
+                        <th>
+                            Remove all negative effects over time
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/lethal_poison.png">
+                            </span>
+                        </th>
+                        <th>Lethal Poison</th>
+                        <th>
+                            Deadly version of poison, can kill even having 1% below health
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/bleed.png">
+                            </span>
+                        </th>
+                        <th>Bleed</th>
+                        <th>
+                            Deal 1 damage per seconds, If it's moving they lose 2 damage instead of 1 damage
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/wings.png">
+                            </span>
+                        </th>
+                        <th>Wings</th>
+                        <th>
+                            Allow to fly and ignore fall damage
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/frostbite.png">
+                            </span>
+                        </th>
+                        <th>Frostbite</th>
+                        <th>
+                            Deal 1 damage per seconds and stop entity's movements
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/thorns.png">
+                            </span>
+                        </th>
+                        <th>Thorns</th>
+                        <th>
+                            Reflect (25% damage dealt * level) to attacker
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/curse_flame.png">
+                            </span>
+                        </th>
+                        <th>Curse Flame</th>
+                        <th>
+                            Burn entity dealing (1% max health * level) damage per second, can't extinguish by water
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/fear.png">
+                            </span>
+                        </th>
+                        <th>Fear</th>
+                        <th>
+                            Disorted the entity's movements and if player they cant able to sleep
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/iron_skin.png">
+                            </span>
+                        </th>
+                        <th>Iron Skin</th>
+                        <th>
+                            Gain 10% + (5% * level) <a href="mechanics.html#damage_reduction">Damage Reduction</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/immunity.png">
+                            </span>
+                        </th>
+                        <th>Immunity</th>
+                        <th>
+                            Ignore incoming damage, after ignoring the effect will depleted
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/recovery.png">
+                            </span>
+                        </th>
+                        <th>Recovery</th>
+                        <th>
+                            Restore 1% max health, considered as the upgraded version of <a
+                                href="https://minecraft.wiki/w/Regeneration" target="_blank">regeneration</a>effect
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/paralyze.png">
+                            </span>
+                        </th>
+                        <th>Paralyze</th>
+                        <th>
+                            Disable entity's movement and if player they cant use any items
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/leech.png">
+                            </span>
+                        </th>
+                        <th>Leech</th>
+                        <th>
+                            Gain 5% * level <a href="mechanics.html#lifesteal">Lifesteal</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/hunger_boost.png">
+                            </span>
+                        </th>
+                        <th>Hunger Boost</th>
+                        <th>
+                            Gain Two States: Hunting State and Killer Instinct State <br><br>
+                            - Hunting State: Allow to see entity with 16x16 <br><br>
+                            - Killer Instinct: When target health are less than user's health it gave Vulnerable 1
+                            effect
+                            for whole duration
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/vulnerable.png">
+                            </span>
+                        </th>
+                        <th>Vulnerable</th>
+                        <th>
+                            Increase damage taken by 10% * level
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/healing_sickness.png">
+                            </span>
+                        </th>
+                        <th>Healing Sickness</th>
+                        <th>
+                            Unalbe to heal using any healing potion item
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <span>
+                                <img class="icons" src="assets/img/icon/effect/stun.png">
+                            </span>
+                        </th>
+                        <th>Stun</th>
+                        <th>
+                            Unable to move, use, attack, and mine over time
+                        </th>
+                    </tr>
+                </table>
+            </span>
+        </div>
     </div>
-    <div class="navigation">
-        <a class="button" href="index.html">Home</a>
-        <a class="button"  href="changelog.html">Changelog</a>
-        <a class="button" href="index.html">Download</a>
-    </div>
-</div> 
-<!--
- THE MAIN BODY OF THE SITE
--->
-<br>
-<div class="layout">
-    <div id="effect-home">
-        <h1>Effects</h1>
-        <p>An effect (also known as mob effect or status effect) is a helpful, harmful or a mostly useless condition that affects an entity. Effects can be inflicted in various ways throughout the game, including consuming potions and some food items, being in the range of <a href="https://minecraft.wiki/w/Beacon" target="_blank">beacons</a> and <a href="https://minecraft.wiki/w/Conduit" target="_blank">conduits</a>, and being attacked by or close to certain mobs.</p>    
-    </div>
-    <span>
-        <table style="width: 100%;">
-            <tr >
-                <th class="table-header" style="width: 10%;">Icon</th>
-                <th class="table-header" style="width: 20%;">Name</th>
-                <th class="table-header">Effect</th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/rage.png">
-                    </span>
-                </th>
-                <th>Rage</th>
-                <th>
-                    Increase damage dealt by 10% (+5% * level) and movement speed by 2% (+2% * level)
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/antidote.png">
-                    </span>
-                </th>
-                <th>Antidote</th>
-                <th>
-                    Remove all negative effects over time
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/lethal_poison.png">
-                    </span>
-                </th>
-                <th>Lethal Poison</th>
-                <th>
-                    Deadly version of poison, can kill even having 1% below health
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/bleed.png">
-                    </span>
-                </th>
-                <th>Bleed</th>
-                <th>
-                    Deal 1 damage per seconds, If it's moving they lose 2 damage instead of 1 damage
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/wings.png">
-                    </span>
-                </th>
-                <th>Wings</th>
-                <th>
-                    Allow to fly and ignore fall damage
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/frostbite.png">
-                    </span>
-                </th>
-                <th>Frostbite</th>
-                <th>
-                    Deal 1 damage per seconds and stop entity's movements
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/thorns.png">
-                    </span>
-                </th>
-                <th>Thorns</th>
-                <th>
-                    Reflect (25% damage dealt * level) to attacker
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/curse_flame.png">
-                    </span>
-                </th>
-                <th>Curse Flame</th>
-                <th>
-                    Burn entity dealing (1% max health * level) damage per second, can't extinguish by water
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/fear.png">
-                    </span>
-                </th>
-                <th>Fear</th>
-                <th>
-                    Disorted the entity's movements and if player they cant able to sleep
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/iron_skin.png">
-                    </span>
-                </th>
-                <th>Iron Skin</th>
-                <th>
-                    Gain 10% + (5% * level) <a href="mechanics.html#damage_reduction">Damage Reduction</a>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/immunity.png">
-                    </span>
-                </th>
-                <th>Immunity</th>
-                <th>
-                    Ignore incoming damage, after ignoring the effect will depleted
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/recovery.png">
-                    </span>
-                </th>
-                <th>Recovery</th>
-                <th>
-                    Restore 1% max health, considered as the upgraded version of <a href="https://minecraft.wiki/w/Regeneration" target="_blank">regeneration</a>effect
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/paralyze.png">
-                    </span>
-                </th>
-                <th>Paralyze</th>
-                <th>
-                    Disable entity's movement and if player they cant use any items    
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/leech.png">
-                    </span>
-                </th>
-                <th>Leech</th>
-                <th>
-                    Gain 5% * level <a href="mechanics.html#lifesteal">Lifesteal</a>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/hunger_boost.png">
-                    </span>
-                </th>
-                <th>Hunger Boost</th>
-                <th>
-                    Gain Two States: Hunting State and Killer Instinct State <br><br>
-                    - Hunting State: Allow to see entity with 16x16 <br><br>
-                    - Killer Instinct: When target health are less than user's health it gave Vulnerable 1 effect for whole duration
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/vulnerable.png">
-                    </span>
-                </th>
-                <th>Vulnerable</th>
-                <th>
-                    Increase damage taken by 10% * level
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/healing_sickness.png">
-                    </span>
-                </th>
-                <th>Healing Sickness</th>
-                <th>
-                    Unalbe to heal using any healing potion item
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <span>
-                        <img class="icons" src="assets/img/icon/effect/stun.png">
-                    </span>
-                </th>
-                <th>Stun</th>
-                <th>
-                    Unable to move, use, attack, and mine over time
-                </th>
-            </tr>
-        </table>
-    </span>
-</div>
+
 </body>
+
 </html>

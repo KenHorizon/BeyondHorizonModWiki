@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,82 +8,114 @@
     <title>Beyond Horizon | Mechanics</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-<div class="page-section">
-    <div>
-        <a href="index.html">
-            <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-        </a>
+<header class="desktop">
+    <div class="page-section">
+        <div>
+            <a href="index.html">
+                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button-selected" href="index.html">Home</a>
+            <a class="button" href="changelog.html">Changelog</a>
+            <a class="button" href="index.html">Download</a>
+        </div>
     </div>
-    <div class="navigation">
-        <a class="button" href="index.html">Home</a>
-        <a class="button"  href="changelog.html">Changelog</a>
-        <a class="button" href="index.html">Download</a>
+</header>
+<header class="mobile">
+    <div class="page-section">
+        <div class="navigation">
+            <a class="dropdown-header" href="index.html">
+                <img class="dropdown-header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+            <ul>
+                <li class="dropdown">
+                    <a>
+                        <img class="dropdown-icons" src="assets/img/icon/mobile_menu_icon.png" />
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="changelog.html">Changelog</a>
+                        <a href="index.html">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-</div> 
-<!--
- THE MAIN BODY OF THE SITE
--->
-<br>
-<div class="layout">
-    <div id="damage_reduction">
-        <h1>Damage Reduction</h1>
-        <p>An attribute that reduce the damage dealt by percentages, Damage Reduction is only can go to <b>99.99%</b> Damage Reduction can further beyond in 100% above</p>    
-    </div>
-    <hr>
-    <div id="critical_damage">
-        <h1>Critical Damage</h1>
-        <p>An Attribute that can perform lethal damage or burst damage, It's came with two <br>
-            <b>Critical Chance</b> allow to perfom the lethal damage by any chances <i>Default: 5%</i> <br>
-            <b>Critical Damage</b> total damage dealt of lethal damage <i>Default: 200%</i>
+</header>
 
-            <br>
-            Some Items have Critical attribute and some can get in Accessory attributes
-        </p>
+<body>
+    <div class="background">
+        <div class="layout">
+            <div id="damage_reduction">
+                <h1>Damage Reduction</h1>
+                <p>An attribute that reduce the damage dealt by percentages, Damage Reduction is only can go to
+                    <b>99.99%</b> Damage Reduction can further beyond in 100% above</p>
+            </div>
+            <hr>
+            <div id="critical_damage">
+                <h1>Critical Damage</h1>
+                <p>An Attribute that can perform lethal damage or burst damage, It's came with two <br>
+                    <b>Critical Chance</b> allow to perfom the lethal damage by any chances <i>Default: 5%</i> <br>
+                    <b>Critical Damage</b> total damage dealt of lethal damage <i>Default: 200%</i>
+
+                    <br>
+                    Some Items have Critical attribute and some can get in Accessory attributes
+                </p>
+            </div>
+            <hr>
+            <div id="lifesteal">
+                <h1>Lifesteal</h1>
+                <p>An Attribute that can allow to heal based the damage dealt by percentages <br>
+                    There's two types of Lifesteal: <br>
+                    <b>Physical Vamp</b> - Heal on based on damage dealt by using melee attacks
+                    <br>
+                    <b>Omnivamp</b> - Heal on based on damage dealt by <b>Physical Vamp</b>, ranged, true damage, and
+                    magic damage
+                </p>
+            </div>
+            <hr>
+            <div id="immunity_frame">
+                <h1>Immunity Frame</h1>
+                <p> An game mechanics that's allow to immune for seconds after dealing damage to entity, default
+                    duration of minecraft vanilla duration is 20 ticks = 1 seconds, but in this changes the immunity
+                    frame now base on attack speed on the weapon, the higher atk spd the less seconds of Immunity Frame,
+                    some projectile weapon base on use time and some can ignore Immunity Frame.</p>
+                <p><b>Note: This Changes is just imported on Java Expermental Combat Update, Only in Weapon with Hight
+                        Attack Speed</b></p>
+            </div>
+
+            <hr>
+            <div id="armor">
+                <h1>Defense</h1>
+                <p>
+                    Armor now have two types of it The Physical Defense and Magic Defense:
+                    <br>
+                    Physical Defense (or Armor in Short) - reduce of any melee damage, projectile, and contact damage
+                    <br>
+                    Magic Defense - reduce only magic damage
+                    <br>
+                    <br>
+                    Damage Armor Calculation has been changes in this mod: <br>
+                    The 80% damage reduction cap has been removed <br>
+                    <b>New Damage Armor Calculation</b>
+                    <br>
+                    <li><i>damage = damage dealt / (1 + (armor +((2 + armor toughness) / 4)) / 100)</i></li>
+                </p>
+            </div>
+            <hr>
+            <div id="diffculty">
+                <h1>Diffculty</h1>
+                <p>
+                    Introducing the <b>Malice mode</b> <br>
+                    <b>Malice Mode</b> is a diffculty harder in than hard mode, reverting all AI and behavior, such as
+                    the zombie having varaint spawn with different abilities, damage dealt by hostile mobs is increase
+                    to 20%, faster and more aggressive mobs
+                </p>
+            </div>
+        </div>
     </div>
-    <hr>
-    <div id="lifesteal">
-        <h1>Lifesteal</h1>
-        <p>An Attribute that can allow to heal based the damage dealt by percentages <br>
-            There's two types of Lifesteal: <br>
-            <b>Physical Vamp</b> - Heal on based on damage dealt by using melee attacks
-            <br>
-            <b>Omnivamp</b> - Heal on based on damage dealt by <b>Physical Vamp</b>, ranged, true damage, and magic damage
-        </p>
-    </div>
-    <hr>
-    <div id="immunity_frame">
-        <h1>Immunity Frame</h1>
-        <p> An game mechanics that's allow to immune for seconds after dealing damage to entity, default duration of minecraft vanilla duration is 20 ticks = 1 seconds, but in this changes the immunity frame now base on attack speed on the weapon, the higher atk spd the less seconds of Immunity Frame, some projectile weapon base on use time and some can ignore Immunity Frame.</p>
-        <p><b>Note: This Changes is just imported on Java Expermental Combat Update, Only in Weapon with Hight Attack Speed</b></p>
-    </div>
-    
-    <hr>
-    <div id="armor">
-        <h1>Defense</h1>
-        <p>
-            Armor now have two types of it The Physical Defense and Magic Defense:
-            <br>
-            Physical Defense (or Armor in Short) - reduce of any melee damage, projectile, and contact damage
-            <br>
-            Magic Defense - reduce only magic damage
-            <br>
-            <br>
-            Damage Armor Calculation has been changes in this mod: <br>
-            The 80% damage reduction cap has been removed <br>
-            <b>New Damage Armor Calculation</b>
-            <br>
-            <li><i>damage = damage dealt / (1 + (armor +((2 + armor toughness) / 4)) / 100)</i></li>
-        </p>
-    </div>
-    <hr>
-    <div id="diffculty">
-        <h1>Diffculty</h1>
-        <p>
-            Introducing the <b>Malice mode</b> <br>
-            <b>Malice Mode</b> is a diffculty harder in than hard mode, reverting all AI and behavior, such as the zombie having varaint spawn with different abilities, damage dealt by hostile mobs is increase to 20%, faster and more aggressive mobs
-        </p>
-    </div>
-</div>
+
 </body>
+
 </html>

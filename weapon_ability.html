@@ -1,152 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <title>Beyond Horizon | Weapon Ability</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+<header class="desktop">
+    <div class="page-section">
+        <div>
+            <a href="index.html">
+                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button-selected" href="index.html">Home</a>
+            <a class="button" href="changelog.html">Changelog</a>
+            <a class="button" href="index.html">Download</a>
+        </div>
+    </div>
+</header>
+<header class="mobile">
+    <div class="page-section">
+        <div class="navigation">
+            <a class="dropdown-header" href="index.html">
+                <img class="dropdown-header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+            <ul>
+                <li class="dropdown">
+                    <a>
+                        <img class="dropdown-icons" src="assets/img/icon/mobile_menu_icon.png" />
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="changelog.html">Changelog</a>
+                        <a href="index.html">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
 <body>
-<div class="page-section">
-    <div>
-        <a href="index.html">
-            <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-        </a>
+
+    <br />
+    <div class="background">
+        <div class="layout">
+            <div>
+                <h1>Weapon Ability</h1>
+                <p>
+                    Weapon Ability is a unique trait have special ability either is a
+                    passive trait, active trait and conditional trait, this trait only
+                    apply in Weapons and some in Accessory Items
+                </p>
+            </div>
+            <div style="font-size: 14px">
+                <table style="width: 100%">
+                    <tr>
+                        <th class="table-header" style="width: 10%; padding: 10px">
+                            Ability
+                        </th>
+                        <th class="table-header" style="width: 5%; padding: 10px">Type</th>
+                        <th class="table-header" style="width: 40%; padding: 10px">
+                            Usage
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Ruined Blade</th>
+                        <th>Passive</th>
+                        <th>Deal extra additional damage by 5% current target's health</th>
+                    </tr>
+                    <tr>
+                        <th>Heavy Hit</th>
+                        <th>Passive</th>
+                        <th>Deal extra additional damage by <i>fall distance%</i></th>
+                    </tr>
+                    <tr>
+                        <th>Life Seeker</th>
+                        <th>Passive</th>
+                        <th>
+                            Heal based on 9% damage dealt, and deal extra damage based on 10%
+                            target's max health
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Radiant</th>
+                        <th>Passive</th>
+                        <th>+50% damage on all undeads</th>
+                    </tr>
+                    <tr>
+                        <th>Flame Edge</th>
+                        <th>Passive</th>
+                        <th>Set target on fire for 5 seconds</th>
+                    </tr>
+                    <tr>
+                        <th>Inferno Touch</th>
+                        <th>Passive</th>
+                        <th>+10% damage on target on fire</th>
+                    </tr>
+                    <tr>
+                        <th>Quick Strike</th>
+                        <th>Passive</th>
+                        <th>Allow perfom a quick attack</th>
+                    </tr>
+                    <tr>
+                        <th>Breaker Point</th>
+                        <th>Attribute Modifier</th>
+                        <th>+45% Armor Penetration</th>
+                    </tr>
+                    <tr>
+                        <th>Light Blade</th>
+                        <th>Conditional: When On Day Time</th>
+                        <th>Deal extra 10% damage during daytime</th>
+                    </tr>
+                    <tr>
+                        <th>Dark Blade</th>
+                        <th>Conditional: When On Night Time</th>
+                        <th>Deal extra 10% damage during night time</th>
+                    </tr>
+                    <tr>
+                        <th>Berserk</th>
+                        <th>Passive</th>
+                        <th>Deal extra 1-100% based on missing health</th>
+                    </tr>
+                    <tr>
+                        <th>Cutting Edge</th>
+                        <th>Conditional Passive</th>
+                        <th>
+                            25% chances inflict bleeding, if target is bleeding they take 120%
+                            damage
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Will of The Blade</th>
+                        <th>Attribute Modifier, Passive</th>
+                        <th>
+                            +20% Critical Strike, Damage increased by 1% per 2% critical
+                            strike
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Bastion's Guts</th>
+                        <th>Attribute Modifier, Passive</th>
+                        <th>+10% max health, gain damage by 1.5% max health</th>
+                    </tr>
+                    <tr>
+                        <th>Collector</th>
+                        <th>Passive</th>
+                        <th>Execute target below 5% health</th>
+                    </tr>
+                    <tr>
+                        <th>Execute</th>
+                        <th>Passive</th>
+                        <th>Deal extra 100% target's max health</th>
+                    </tr>
+                    <tr>
+                        <th>Harvester</th>
+                        <th>Conditional Passive</th>
+                        <th>
+                            Harvester - Enemy below 40% deal 120% damage <br />
+                            Harvester's Soul - Drain user's exhaustion by 3, if have no longer
+                            hunger, it's drain health
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Strike's Back</th>
+                        <th>Conditional Passive</th>
+                        <th>Deal 200% damage when hitting target's back</th>
+                    </tr>
+                    <tr>
+                        <th>Will Omen</th>
+                        <th>Conditional Passive</th>
+                        <th>Target and User deal 150% damage taken</th>
+                    </tr>
+                    <tr>
+                        <th>Last Omen</th>
+                        <th>Passive</th>
+                        <th>+100% damage, but per second lost 1 health</th>
+                    </tr>
+                    <tr>
+                        <th>Will of Edge</th>
+                        <th>Conditional Passive</th>
+                        <th>
+                            +10% damage dealt <br />
+                            [Light Attribute]: During day, gain 10% movement speed and
+                            critical strike <br />
+                            [Dark Attribute]: During night, gain 10% evade and critical damage
+                            <br />
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
-    <div class="navigation">
-        <a class="button" href="index.html">Home</a>
-        <a class="button"  href="changelog.html">Changelog</a>
-        <a class="button" href="index.html">Download</a>
-    </div>
-</div> 
-<!--
- THE MAIN BODY OF THE SITE
--->
-<br>
-<div class="layout">
-    <div>
-        <h1>Weapon Ability</h1>
-        <p>Weapon Ability is a unique trait have special ability either is a passive trait, active trait and conditional trait, this trait only apply in Weapons and some in Accessory Items</p>
-    </div>
-    <div style="font-size: 14px;">
-        <table style="width: 100%;">
-            <tr>
-                <th class="table-header" style="width: 10%; padding: 10px;">Ability</th>
-                <th class="table-header" style="width: 5%; padding: 10px;">Type</th>
-                <th class="table-header" style="width: 40%; padding: 10px;">Usage</th>
-            </tr>
-            <tr>
-                <th>Ruined Blade</th>
-                <th>Passive</th>
-                <th>Deal extra additional damage by 5% current target's health</th>
-            </tr>
-            <tr>
-                <th>Heavy Hit</th>
-                <th>Passive</th>
-                <th>Deal extra additional damage by <i>fall distance%</i></th>
-            </tr>
-            <tr>
-                <th>Life Seeker</th>
-                <th>Passive</th>
-                <th>Heal based on 9% damage dealt, and deal extra damage based on 10% target's max health</th>
-            </tr>
-            <tr>
-                <th>Radiant</th>
-                <th>Passive</th>
-                <th>+50% damage on all undeads</th>
-            </tr>
-            <tr>
-                <th>Flame Edge</th>
-                <th>Passive</th>
-                <th>Set target on fire for 5 seconds</th>
-            </tr>
-            <tr>
-                <th>Inferno Touch</th>
-                <th>Passive</th>
-                <th>+10% damage on target on fire</th>
-            </tr>
-            <tr>
-                <th>Quick Strike</th>
-                <th>Passive</th>
-                <th>Allow perfom a quick attack</th>
-            </tr>
-            <tr>
-                <th>Breaker Point</th>
-                <th>Attribute Modifier</th>
-                <th>+45% Armor Penetration</th>
-            </tr>
-            <tr>
-                <th>Light Blade</th>
-                <th>Conditional: When On Day Time</th>
-                <th>Deal extra 10% damage during daytime</th>
-            </tr>
-            <tr>
-                <th>Dark Blade</th>
-                <th>Conditional: When On Night Time</th>
-                <th>Deal extra 10% damage during night time</th>
-            </tr>
-            <tr>
-                <th>Berserk</th>
-                <th>Passive</th>
-                <th>Deal extra 1-100% based on missing health</th>
-            </tr>
-            <tr>
-                <th>Cutting Edge</th>
-                <th>Conditional Passive</th>
-                <th>25% chances inflict bleeding, if target is bleeding they take 120% damage</th>
-            </tr>
-            <tr>
-                <th>Will of The Blade</th>
-                <th>Attribute Modifier, Passive</th>
-                <th>+20% Critical Strike, Damage increased by 1% per 2% critical strike</th>
-            </tr>
-            <tr>
-                <th>Bastion's Guts</th>
-                <th>Attribute Modifier, Passive</th>
-                <th>+10% max health, gain damage by 1.5% max health</th>
-            </tr>
-            <tr>
-                <th>Collector</th>
-                <th>Passive</th>
-                <th>Execute target below 5% health</th>
-            </tr>
-            <tr>
-                <th>Execute</th>
-                <th>Passive</th>
-                <th>Deal extra 100% target's max health</th>
-            </tr>
-            <tr>
-                <th>Harvester</th>
-                <th>Conditional Passive</th>
-                <th>Harvester - Enemy below 40% deal 120% damage <br>
-                    Harvester's Soul - Drain user's exhaustion by 3, if have no longer hunger, it's drain health</th>
-            </tr>
-            <tr>
-                <th>Strike's Back</th>
-                <th>Conditional Passive</th>
-                <th>Deal 200% damage when hitting target's back</th>
-            </tr>
-            <tr>
-                <th>Will Omen</th>
-                <th>Conditional Passive</th>
-                <th>Target and User deal 150% damage taken</th>
-            </tr>
-            <tr>
-                <th>Last Omen</th>
-                <th>Passive</th>
-                <th>+100% damage, but per second lost 1 health</th>
-            </tr>
-            <tr>
-                <th>Will of Edge</th>
-                <th>Conditional Passive</th>
-                <th> +10% damage dealt <br>
-                    [Light Attribute]: During day, gain 10% movement speed and critical strike <br>
-                    [Dark Attribute]: During night, gain 10% evade and critical damage <br>
-                </th>
-            </tr>
-        </table>
-    </div>
-</div>
 </body>
+
 </html>
