@@ -1,251 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
-    <title>Beyond Horizon | Wiki</title>
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- CSS SCRIPT HANDLE CUSTOMIZED ADDITIONS OF HTML -->
-</head>
-<body>
-<script src="assets/js/lastest_support_version.js"></script>
-<script src="assets/js/main.js"></script>
-<div class="desktop">
-    <div class="page-section">
-        <div>
-            <a href="index.html">
-                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-            </a>
-        </div>
-        <div class="navigation">
-            <a class="button-selected" href="index.html">Home</a>
-            <a class="button" href="changelog.html">Changelog</a>
-            <a class="button" href="index.html">Download</a>
-        </div>
-    </div>
-</div> 
-<div class="mobile">
-    <div class="page-section">
-        <div>
-            <a href="index.html">
-                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-            </a>
-            <div id="mobile-menu-icon-button" onclick="toggleMobileMenu(this)">
-                <img class="mobile-menu-icon" src="assets/img/icon/mobile_menu_icon.png">
-                <div>
-                    <ul class="mobile-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="changelog.html">Changelog</a></li>
-                        <li><a href="index.html">Download</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--
- THE MAIN BODY OF THE SITE
--->
-<div class="background">
-    <div class="layout">
-        <div class="introduction">
-            <span>
-                <img src="assets/img/logo.png">
-            </span>
-            <p>Beyond Horizon is a minecraft mod for <a href="https://www.minecraft.net/en-us">Minecraft</a> which adds new content, enemies, bosses, and event, The Beyond Horizon features several harder diffculty modes, new sturtures, new game mechanics and other assorted changes to vanilla gameplay and mechanics, The Beyond Horizon Mod aim for in RPG style game.</p>
-            <div class="box">
-                <table style="width: 350px;">
-                    <tr >
-                        <th class="supported-version-title"><b>Lastest Supported Versions</b></th>
-                    </tr>
-                    <tr>
-                        <th id="mod_name"></th>
-                    </tr>
-                    <tr>
-                        <th id="version"></th>
-                    </tr>
-                    <tr>
-                        <th><a href="https://files.minecraftforge.net/net/minecraftforge/forge/ " target="_blank" id="mod_loader_name"></a></th>
-                    </tr>
-                    <tr>
-                        <th id="mod_loader_version"></th>
-                    </tr>
-                    <tr>
-                        <th><a href="https://www.minecraft.net/en-us" target="_blank">Minecraft</a></th>
-                    </tr>
-                    <tr>
-                        <th id="minecraft_version"><a href="https://www.minecraft.net/en-us" target="_blank">Minecraft</a></th>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-    
-    <div class="layout">
-        <div class="layout-1">
-            <div class="layout-2">
-                <span class="headers">
-                    <div class="text-headers">
-                        <h3>Items</h3>
-                    </div>
-                    <img class="icons-headers" src="assets/img/icon/iron_sword.png" >
-                </span>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/book_of_knowledge.png" title="Accessory">
-                        <div class="text-icons">
-                            <a href="accessory.html">Accessory</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/diamond_chestplate.png" title="Armor">
-                        <div class="text-icons">
-                            <a href="index.html">Armor</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/diamond_sword.png" title="Weapons">
-                        <div class="text-icons">
-                            <a href="index.html">Weapons</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/potion.png" title="Potion">
-                        <div class="text-icons">
-                            <a href="brewing.html">Potion</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                            <img class="icons" src="assets/img/icon/weapon_ability.png" title="Weapon Ability">
-                        <div class="text-icons">
-                            <a href="weapon_ability.html">Weapon Ability</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                            <img class="icons" src="assets/img/icon/effects.png" title="Effects">
-                        <div class="text-icons">
-                            <a href="effects.html">Effects</a>
-                        </div>
-                    </span>
-                </div>
-            </div>
-            <div class="layout-2">
-                <span class="headers">
-                    <div class="text-headers">
-                        <h3>Mechanics</h3>
-                    </div>
-                    <img class="icons-headers" src="assets/img/icon/mechanics.png" >
-                </span>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/diamond_sword.png" title="Immunity Frame">
-                        <div class="text-icons">
-                            <a href="mechanics.html#immunity_frame">Immunity Frame</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/iron_skin.png" title="Damage Reduction">
-                        <div class="text-icons">
-                            <a href="mechanics.html#damage_reduction">Damage Reduction</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/events.png" title="Events">
-                        <div class="text-icons">
-                            <a href="index.html">Events</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/grass_block_plus.png" title="Vanilla Changes">
-                        <div class="text-icons">
-                            <a href="vanilla_changes.html">Vanilla Changes</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/critical_damage.png" title="Critical Damage">
-                        <div class="text-icons">
-                            <a href="mechanics.html#critical_damage">Critical Damage</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/leech.png" title="Lifesteal">
-                        <div class="text-icons">
-                            <a href="mechanics.html#lifesteal">Lifesteal</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/creeper_head.png" title="Diffculty">
-                        <div class="text-icons">
-                            <a href="mechanics.html#diffculty">Diffculty</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/configuration.png" title="Configuration">
-                        <div class="text-icons">
-                            <a href="configuration.html">Configuration</a>
-                        </div>
-                    </span>
-                </div>
-                <div>
-                    <span class="icons-text">
-                        <img class="icons" src="assets/img/icon/structures.png" title="Structures">
-                        <div class="text-icons">
-                            <a href="index.html">Structures</a>
-                        </div>
-                    </span>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="layout">
-        <span class="layout-1">
-            <span class="layout-2">
-                <span class="headers">
-                    <div class="text-headers">
-                        <h3>Features</h3>
-                    </div>
-                    <img class="icons-headers" src="assets/img/icon/book_of_knowledge.png" >
-                </span>
-                <br>
-                <li>All New Weapons & Tools</li>
-                <li>All New Mobs, Passive & Aggressive</li>
-                <li>New Custom Crafting & Smelting Recipe's For Certain Vanilla Items</li>
-                <li>Brand New Enchantments, Potions, & Individual Item Qualities</li>
-                <li>Healing From Food Removed</li>
-                <li>Ability Trait for Weapons, Armor & Tools</li>
-                <li>Randomized Ruins, Structures, And Dungeons Generating All Throughout The World</li>
-                <li>Armor Bonus Sets</li>
-                <li>Damage Indicators</li>
-                <br>
-            </span>
-        </span>
-    </div>
-</div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+		<title>Beyond Horizon | Wiki</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/dropdown.css" />
+	</head>
+	<body>
+		<script src="assets/js/lastest_support_version.js"></script>
+		<script src="assets/js/main.js"></script>
+		<div class="desktop">
+			<div class="page-section">
+				<div>
+					<a href="index.html">
+						<img
+							class="header"
+							src="assets/img/title.png"
+							alt="Beyond Horizon | Wiki - Patreon"
+						/>
+					</a>
+				</div>
+				<div class="navigation">
+					<a class="button-selected" href="index.html">Home</a>
+					<a class="button" href="changelog.html">Changelog</a>
+					<a class="button" href="index.html">Download</a>
+				</div>
+			</div>
+		</div>
+		<div class="mobile">
+			<div class="page-section">
+				<div class="navigation">
+                    <a class="dropdown-header" href="index.html">
+                        <img class="dropdown-header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+                    </a>
+					<ul>
+						<li class="dropdown">
+							<a>
+								<img class="dropdown-icons" src="assets/img/icon/mobile_menu_icon.png" />
+							</a>
+							<div class="dropdown-content">
+								<a href="index.html">Home</a>
+								<a href="changelog.html">Changelog</a>
+								<a href="index.html">Download</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="background">
+			<div class="layout">
+				<div class="introduction">
+					<span>
+						<img src="assets/img/logo.png" />
+					</span>
+					<p>
+						Beyond Horizon is a minecraft mod for
+						<a href="https://www.minecraft.net/en-us">Minecraft</a> which adds
+						new content, enemies, bosses, and event, The Beyond Horizon features
+						several harder diffculty modes, new sturtures, new game mechanics
+						and other assorted changes to vanilla gameplay and mechanics, The
+						Beyond Horizon Mod aim for in RPG style game.
+					</p>
+					<div class="box">
+						<table style="width: 350px">
+							<tr>
+								<th class="supported-version-title">
+									<b>Lastest Supported Versions</b>
+								</th>
+							</tr>
+							<tr>
+								<th id="mod_name"></th>
+							</tr>
+							<tr>
+								<th id="version"></th>
+							</tr>
+							<tr>
+								<th>
+									<a
+										href="https://files.minecraftforge.net/net/minecraftforge/forge/ "
+										target="_blank"
+										id="mod_loader_name"
+									></a>
+								</th>
+							</tr>
+							<tr>
+								<th id="mod_loader_version"></th>
+							</tr>
+							<tr>
+								<th>
+									<a href="https://www.minecraft.net/en-us" target="_blank"
+										>Minecraft</a
+									>
+								</th>
+							</tr>
+							<tr>
+								<th id="minecraft_version">
+									<a href="https://www.minecraft.net/en-us" target="_blank"
+										>Minecraft</a
+									>
+								</th>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="layout">
+				<div class="layout-1">
+					<div class="layout-2">
+						<span class="headers">
+							<div class="text-headers">
+								<h3>Items</h3>
+							</div>
+							<img class="icons-headers" src="assets/img/icon/iron_sword.png" />
+						</span>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/book_of_knowledge.png"
+									title="Accessory"
+								/>
+								<div class="text-icons">
+									<a href="accessory.html">Accessory</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/diamond_chestplate.png"
+									title="Armor"
+								/>
+								<div class="text-icons">
+									<a href="index.html">Armor</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/diamond_sword.png"
+									title="Weapons"
+								/>
+								<div class="text-icons">
+									<a href="index.html">Weapons</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/potion.png"
+									title="Potion"
+								/>
+								<div class="text-icons">
+									<a href="brewing.html">Potion</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/weapon_ability.png"
+									title="Weapon Ability"
+								/>
+								<div class="text-icons">
+									<a href="weapon_ability.html">Weapon Ability</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/effects.png"
+									title="Effects"
+								/>
+								<div class="text-icons">
+									<a href="effects.html">Effects</a>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="layout-2">
+						<span class="headers">
+							<div class="text-headers">
+								<h3>Mechanics</h3>
+							</div>
+							<img class="icons-headers" src="assets/img/icon/mechanics.png" />
+						</span>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/diamond_sword.png"
+									title="Immunity Frame"
+								/>
+								<div class="text-icons">
+									<a href="mechanics.html#immunity_frame">Immunity Frame</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/iron_skin.png"
+									title="Damage Reduction"
+								/>
+								<div class="text-icons">
+									<a href="mechanics.html#damage_reduction">Damage Reduction</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/events.png"
+									title="Events"
+								/>
+								<div class="text-icons">
+									<a href="index.html">Events</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/grass_block_plus.png"
+									title="Vanilla Changes"
+								/>
+								<div class="text-icons">
+									<a href="vanilla_changes.html">Vanilla Changes</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/critical_damage.png"
+									title="Critical Damage"
+								/>
+								<div class="text-icons">
+									<a href="mechanics.html#critical_damage">Critical Damage</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/leech.png"
+									title="Lifesteal"
+								/>
+								<div class="text-icons">
+									<a href="mechanics.html#lifesteal">Lifesteal</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/creeper_head.png"
+									title="Diffculty"
+								/>
+								<div class="text-icons">
+									<a href="mechanics.html#diffculty">Diffculty</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/configuration.png"
+									title="Configuration"
+								/>
+								<div class="text-icons">
+									<a href="configuration.html">Configuration</a>
+								</div>
+							</span>
+						</div>
+						<div>
+							<span class="icons-text">
+								<img
+									class="icons"
+									src="assets/img/icon/structures.png"
+									title="Structures"
+								/>
+								<div class="text-icons">
+									<a href="index.html">Structures</a>
+								</div>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="layout">
+				<span class="layout-1">
+					<span class="layout-2">
+						<span class="headers">
+							<div class="text-headers">
+								<h3>Features</h3>
+							</div>
+							<img
+								class="icons-headers"
+								src="assets/img/icon/book_of_knowledge.png"
+							/>
+						</span>
+						<br />
+						<li>All New Weapons & Tools</li>
+						<li>All New Mobs, Passive & Aggressive</li>
+						<li>
+							New Custom Crafting & Smelting Recipe's For Certain Vanilla Items
+						</li>
+						<li>
+							Brand New Enchantments, Potions, & Individual Item Qualities
+						</li>
+						<li>Healing From Food Removed</li>
+						<li>Ability Trait for Weapons, Armor & Tools</li>
+						<li>
+							Randomized Ruins, Structures, And Dungeons Generating All
+							Throughout The World
+						</li>
+						<li>Armor Bonus Sets</li>
+						<li>Damage Indicators</li>
+						<br />
+					</span>
+				</span>
+			</div>
+		</div>
+	</body>
 </html>

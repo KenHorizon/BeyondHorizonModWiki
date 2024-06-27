@@ -13,25 +13,11 @@ body {
 .mobile, .mobile-background .page-section {
     display: none;
 }
-#mobile-menu-icon-button {
-    image-rendering: pixelated;
-}
-.mobile-menu-icon {
-    width: 20%;
-}
-.open .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-start;
-    align-items: center;
-}
 .mobile-menu {
     display: none;
-    position: absolute;
     top: 50px;
-    left: 0px;
+    position: absolute;
     height: calc(100vh - 50px);
-    width: 100%;
 }
 .mobile .page-section {
     margin: -0.60em -0.85em;
@@ -66,7 +52,8 @@ th, td {
     border-collapse: collapse;
 }
 .page-section {
-    margin: 0.60em 0.85em;
+    max-width: 2000px;
+    width: 100%;
     text-align: center;
     vertical-align: top;
     padding: 10px;
@@ -74,12 +61,7 @@ th, td {
     border-top: 2px solid rgb(71, 71, 71);
     border-left: 2px solid rgb(71, 71, 71);
     background-color: rgb(42, 42, 42);
-}
-.header {
-    align-items: center;
-    width: 25%;
-    height: 75%;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 div.home-header {
     align-items: center;
@@ -91,8 +73,10 @@ div.home-header {
     display: none;
 }
 .navigation {
-    padding: 10px;
-    display: inline-table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .button-background {
     border: 5px solid black;
@@ -135,10 +119,16 @@ div.home-header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
+.header {
+    width: 25%;
+    height: 75%;
+    image-rendering: pixelated;
+}
 .box {
     color: white;
     display: flex;
     width: auto;
+    justify-content: center;
 }
 .introduction {
     color: white;
@@ -146,8 +136,8 @@ div.home-header {
     flex-wrap: nowrap;
 }
 .background {
-    padding: 0 auto;
-    margin: 0.60em 0.85em;
+    max-width: 2000px;
+    width: 100%;
     color: white;
     border: 2px solid rgb(19, 19, 19);
     border-top: 2px solid rgb(50, 50, 50);
@@ -156,7 +146,6 @@ div.home-header {
 }
 .layout {
     padding: 10px;
-    margin: 0.60em 0.85em;
     color: white;
     border: 2px solid rgb(30, 30, 30);
     border-top: 2px solid rgb(71, 71, 71);
@@ -251,18 +240,11 @@ img {
         flex-direction: column;
         flex-wrap: nowrap;
         position: fixed;
-        z-index: 1;
-    }
-    .header {
-        float: left;
-        width: 45%;
-        height: 75%;
     }
     .background {
-        margin-top: 25px;
-    }
-    .background .introduction {
-        bottom: 120px;
+        position: relative;
+        top: 100px;
+        z-index: -1;
     }
     .page-section {
         background-size: 20vh auto;
@@ -279,6 +261,7 @@ img {
         width: 20%;
     }
     .introduction {
+        text-align: center;
         display:  block;
     }
 }
