@@ -13,5 +13,100 @@
         "name": "Antidote",
         "desc": "Remove all negative effects over time",
         "img": "assets/img/icon/effect/antidote.png"
+    },
+    {
+        "name": "Lethal Poison",
+        "desc": "Deadly version of poison, can kill even having 1% below health",
+        "img": "assets/img/icon/effect/lethal_poison.png"
+    },
+    {
+        "name": "Wings",
+        "desc": "Allow to fly and ignore fall damage",
+        "img": "assets/img/icon/effect/wings.png"
+    },
+    {
+        "name": "Frostbite",
+        "desc": "Deal 1 damage per seconds and stop entity's movements",
+        "img": "assets/img/icon/effect/frostbite.png"
+    },
+    {
+        "name": "Thorns",
+        "desc": "Reflect (25% damage dealt * level) to attacker",
+        "img": "assets/img/icon/effect/thorns.png"
+    },
+    {
+        "name": "Curse Flame",
+        "desc": "Burn entity dealing (1% max health * level) damage per second, can't extinguish by water",
+        "img": "assets/img/icon/effect/curse_flame.png"
+    },
+    {
+        "name": "Fear",
+        "desc": "Distorted the entity's movements and if player they cant able to sleep and darken the screen",
+        "img": "assets/img/icon/effect/fear.png"
+    },
+    {
+        "name": "Iron Skin",
+        "desc": "Increase Armor and Armor Toughness by 15% per level",
+        "img": "assets/img/icon/effect/iron_skin.png"
+    },
+    {
+        "name": "Immunity",
+        "desc": "Ignore incoming damage, after ignoring the effect will depleted",
+        "img": "assets/img/icon/effect/immunity.png"
+    },
+    {
+        "name": "Recovery",
+        "desc": "Restore 1% max health, considered as the upgraded version of <a href='https://minecraft.wiki/w/Regeneration' target='_blank'> Regeneration Effect</a>",
+        "img": "assets/img/icon/effect/recovery.png"
+    },
+    {
+        "name": "Paralyze",
+        "desc": "Disable entity's movement and if player they cant use any items",
+        "img": "assets/img/icon/effect/paralyze.png"
+    },
+    {
+        "name": "Leech",
+        "desc": "Gain 5% * level <a href='mechanics.html#lifesteal'>Life Steal</a>",
+        "img": "assets/img/icon/effect/leech.png"
+    },
+    {
+        "name": "Hunger Boost",
+        "desc": "Gain Two States: Hunting State and Killer Instinct State <br><br> - Hunting State: Allow to see entity with 16x16 <br><br>- Killer Instinct: When target health are less than user's health it gave Vulnerable 1 effect for whole duration",
+        "img": "assets/img/icon/effect/hunger_boost.png"
+    },
+    {
+        "name": "Vulnerable",
+        "desc": "Increase damage taken by 10% * level",
+        "img": "assets/img/icon/effect/vulnerable.png"
+    },
+    {
+        "name": "Healing Sickness",
+        "desc": "Unable to heal using any healing potion item",
+        "img": "assets/img/icon/effect/healing_sickness.png"
+    },
+    {
+        "name": "Stun",
+        "desc": "Disable entity's movement and unable to use, attack and mine",
+        "img": "assets/img/icon/effect/stun.png"
+    },
+    {
+        "name": "Lightning",
+        "desc": "After slight delay summon lightning bolt dealing 4 + (1 * per level) within 1 * level range",
+        "img": "assets/img/icon/effect/lightning.png"
+    },
+    {
+        "name": "Armor Break",
+        "desc": "Reduce Armor and Armor Toughness by 15% per level",
+        "img": "assets/img/icon/effect/armor_break.png"
+    },
+    {
+        "name": "Dragon Flame",
+        "desc": "Burn dealing 1 damage per seconds, Water cant extinguish and deal additional 2 damage per seconds",
+        "img": "assets/img/icon/effect/dragon_flame.png"
+    },
+    {
+        "name": "Nature Heal",
+        "desc": "Increase Health Regeneration by 15% per level",
+        "img": "assets/img/icon/effect/nature_heal.png"
     }
 ]
