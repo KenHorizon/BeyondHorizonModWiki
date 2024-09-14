@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Bleed",
+        "desc": "Deal 1 damage per second, Negate all healing received",
+        "img": "assets/img/icon/effect/bleed.png"
+    },
+    {
+        "name": "Rage",
+        "desc": "Increase damage dealt by 10% (+5% * level) and movement speed by 2% (+2% * level)",
+        "img": "assets/img/icon/effect/rage.png"
+    },
+    {
+        "name": "Antidote",
+        "desc": "Remove all negative effects over time",
+        "img": "assets/img/icon/effect/antidote.png"
+    }
+]
