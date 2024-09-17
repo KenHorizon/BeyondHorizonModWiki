@@ -1,0 +1,33 @@
+-------------------- Weapons --------------------
+Catalysm Darkin Scythe
+Attack Damage: 20
+Attacl Speed: 1.35
+Attack Range: 5
+
+Ability:
+[Passive] Darkin's Will - Hunger consumption is increased by 50%
+			- [Uncontrolable State]: If Owner's Hunger drop to zero, the weapon is unable to use the weapon
+[Passive] Blood Magic - Heal based on 15% damage dealt
+
+[Active] Darkin Slash (Cooldown: 6 seconds) - Dash forward and perfom slashing attack dealing [50% Attack Damage]
+
+[Active] Sin Of Four Call (Cooldown: 5 seconds) - Enchance of next four melee attack within 5 seconds
+				- [Fated Blade]: Deal additional 10% Max HP
+
+Catalysm Guardian Sword
+Attack Damage: 20
+Attacl Speed: 1.25
+Attack Range: 4
+
+Ability:
+[Passive] Blade Reaver 	-  Every Critical strikes will create shockwave and damaging 2 range dealing 50% of total damage dealt
+			-  Every 3rd attack, will deal 150% damage
+
+[Passive] Cosmic Drive - Periodically, Empowers next Melee Attack to deal bonus Magic damage equal to 5% target's Max Hp
+
+[Passive] Desire Fate - Have 15% chance to block incoming next Damage
+
+[Active] Galaxy Impact (Cooldown: 30 seconds) - Charges for up to 4 seconds to Damage over the first 1.4 seconds
+			[Recast] - Fire a piercing slash to target direction that deal [90% Attack Damage] Physical Damage to enemies hit, The Slash applies On-Hit and On-Attack effects at 100% effectiveness
+
+[Active] Singularity (Cooldown: 10 seconds) - Lunge Attack dealing [55% Attack Damage] Physical Damage
