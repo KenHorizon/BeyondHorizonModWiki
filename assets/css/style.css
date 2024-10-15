@@ -1,5 +1,5 @@
 html {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body {
     font-size: 16px;
@@ -43,6 +43,7 @@ table {
     border-collapse: collapse;
 }
 th, td {
+    font-weight: normal;
     padding: 5px;
     border-top: 2px solid rgb(71, 71, 71);
     border-collapse: collapse;
