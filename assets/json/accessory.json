@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Amulet of Destruction",
+        "desc": "[Desire Fate] 15% chance to dodge incoming attack <br>[Eye of Everything] On-hit attacks summon catalysm scythe",
+        "img": "assets/img/icon/modded_item/accessory/amulet_of_destruction.png"
+    },
+    {
+        "name": "Angel Rings",
+        "desc": "[Feather Foot] Immune to fall damage <br>[Blessed Angel] Grant flying ability, consume 1 mana per seconds",
+        "img": "assets/img/icon/modded_item/accessory/angel_rings.png"
+    },
+    {
+        "name": "Band of Restoration",
+        "desc": "[Restoration] Restore health per seconds",
+        "img": "assets/img/icon/modded_item/accessory/band_of_restoration.png"
+    },
+    {
+        "name": "Book of Knowledge",
+        "desc": "[Education] Gain 20% more Experience",
+        "img": "assets/img/icon/modded_item/accessory/book_of_knowledge.png"
+    },
+    {
+        "name": "Broken Hero Sword",
+        "desc": "+10% Attack Damage<br>+10%Attack Speed",
+        "img": "assets/img/icon/modded_item/accessory/broken_hero_sword.png"
+    },
+    {
+        "name": "Broken Shulker Shell",
+        "desc": "[Weight] Grant immunity to Levitation",
+        "img": "assets/img/icon/modded_item/accessory/broken_shulker_shell.png"
+    },
+    {
+        "name": "Creation Oath",
+        "desc": "[Alliance] Flares will become friendly",
+        "img": "assets/img/icon/modded_item/accessory/creation_oath.png"
+    },
+    {
+        "name": "Crown",
+        "desc": "[Weight] Grant immunity to Levitation",
+        "img": "assets/img/icon/modded_item/accessory/crown.png"
+    },
+    {
+        "name": "Curse Apple",
+        "desc": "[Body Poison] Grant immunity to poison",
+        "img": "assets/img/icon/modded_item/accessory/curse_apple.png"
+    },
+    {
+        "name": "Dragon Claw",
+        "desc": "+10% Attack Speed<br>+10%Mining Speed",
+        "img": "assets/img/icon/modded_item/accessory/dragon_claw.png"
+    },
+    {
+        "name": "Dragon Eye",
+        "desc": "[Owl Eye] Allow to see at night",
+        "img": "assets/img/icon/modded_item/accessory/dragon_eye.png"
+    },
+    {
+        "name": "Dragon Heart",
+        "desc": "[Dragon Heart] Inflict Dragon Flame on-hit",
+        "img": "assets/img/icon/modded_item/accessory/dragon_heart.png"
+    },
+    {
+        "name": "Dragon Scale",
+        "desc": "[Dragon Scale] Negate any Lethal Damage (Cooldown: 10 minutes)",
+        "img": "assets/img/icon/modded_item/accessory/dragon_scale.png"
+    },
+    {
+        "name": "Ender Chest Bag",
+        "desc": "Portable Ender Chest",
+        "img": "assets/img/icon/modded_item/accessory/ender_chest_bag.gif"
+    },
+    {
+        "name": "Eternal Tome",
+        "desc": "[Undying Will] Grant Ability to use Totem Of Undying in inventory",
+        "img": "assets/img/icon/modded_item/accessory/eternal_tome.png"
+    },
+    {
+        "name": "Fortune Shikigami",
+        "desc": "+2 Luck",
+        "img": "assets/img/icon/modded_item/accessory/fortune_shikigami.png"
+    },
+    {
+        "name": "Gold Shoulder Brass",
+        "desc": "[Brute Resistance] Grant immunity to Weakness",
+        "img": "assets/img/icon/modded_item/accessory/gold_shoulder_brass.png"
+    },
+    {
+        "name": "Hatchet",
+        "desc": "+1.5% Physical Vamp",
+        "img": "assets/img/icon/modded_item/accessory/hatchet.png"
+    },
+    {
+        "name": "Heavy String Bow",
+        "desc": "+10% Damage and Knockback to arrows",
+        "img": "assets/img/icon/modded_item/accessory/heavy_string_bow.png"
+    },
+    {
+        "name": "Hellfire Hatchet",
+        "desc": "[Char] Basic attacks on-hit and ability hits against enemies Heal you for 15% of target's Current HP and apply a Burn for over 4 seconds",
+        "img": "assets/img/icon/modded_item/accessory/hellfire_hatchet.png"
+    },
+    {
+        "name": "hellfire_stone",
+        "desc": "[Burn Touch] Attack inflict burn",
+        "img": "assets/img/icon/modded_item/accessory/hellfire_hatchet.png"
+    },
+    {
+        "name": "Hermit's Boots",
+        "desc": "[Feather Foot] Negate fall Damage<br>[Double Jump] Allow to perform double jump",
+        "img": "assets/img/icon/modded_item/accessory/hermits_boots.png"
+    },
+    {
+        "name": "Hero Shield",
+        "desc": "[Toughness Skin] Reduce physical Damage by 15%",
+        "img": "assets/img/icon/modded_item/accessory/hero_shield.png"
+    },
+    {
+        "name": "Horse Shoe",
+        "desc": "[Feather Foot] Negate fall Damage",
+        "img": "assets/img/icon/modded_item/accessory/hero_shield.png"
+    },
+    {
+        "name": "Light String Bow",
+        "desc": "-50% Draw Pull",
+        "img": "assets/img/icon/modded_item/accessory/light_string_bow.png"
+    },
+    {
+        "name": "Light String Bow",
+        "desc": "Slightly increase bow draw speed",
+        "img": "assets/img/icon/modded_item/accessory/light_string_bow.png"
+    },
+    {
+        "name": "Miner's Gloves",
+        "desc": "+15% Mining Speed",
+        "img": "assets/img/icon/modded_item/accessory/miner_gloves.png"
+    },
+    {
+        "name": "Obsidian Plate",
+        "desc": "[Obsidian Skin] Grant immunity to the Burning and Contact burning",
+        "img": "assets/img/icon/modded_item/accessory/obsidian_plate.png"
+    },
+    {
+        "name": "Obsidian Sigil",
+        "desc": "[Obsidian Skin] Grant immunity to the Burning and Contact burning<br>+8% Damage Reduction",
+        "img": "assets/img/icon/modded_item/accessory/obsidian_sigil.png"
+    },
+    {
+        "name": "Power Claw",
+        "desc": "+15% Attack Damage",
+        "img": "assets/img/icon/modded_item/accessory/power_claw.png"
+    },
+    {
+        "name": "Rectrix",
+        "desc": "+5% Attack Speed<br>+5% Movement Speed",
+        "img": "assets/img/icon/modded_item/accessory/rectrix.png"
+    },
+    {
+        "name": "Sentinel Brass",
+        "desc": "+2 Armor",
+        "img": "assets/img/icon/modded_item/accessory/sentinel_brass.png"
+    },
+    {
+        "name": "Sentinel Of Shield",
+        "desc": "+5 Armor<br>10% Knockback Resistance",
+        "img": "assets/img/icon/modded_item/accessory/sentinel_of_shield.png"
+    },
+    {
+        "name": "Shark Tooth",
+        "desc": "5% Armor Penetration",
+        "img": "assets/img/icon/modded_item/accessory/shark_tooth.png"
+    },
+    {
+        "name": "Steel Sigil",
+        "desc": "+8% Damage Reduction",
+        "img": "assets/img/icon/modded_item/accessory/steel_sigil.png"
+    },
+    {
+        "name": "Vitality Stone",
+        "desc": "+50% Max Health",
+        "img": "assets/img/icon/modded_item/accessory/vitality_stone.png"
+    },
+    {
+        "name": "vitamins",
+        "desc": "[Vitamins] Grant Immunity to Hunger",
+        "img": "assets/img/icon/modded_item/accessory/vitamins.png"
+    },
+    {
+        "name": "Void Bag",
+        "desc": "Portable Pocket Bag Dimension",
+        "img": "assets/img/icon/modded_item/accessory/void_bag.gif"
+    }
+]

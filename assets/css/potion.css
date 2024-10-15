@@ -1,0 +1,57 @@
+.base {
+    display: flex;
+    image-rendering: pixelated;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 190px;
+}
+.brewing-stand {
+    position: relative;
+    width: 182px;
+    height: 182px;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/icon/brewing/base.png");
+}
+.item {
+    width: 36px;
+    height: 36px;
+    image-rendering: pixelated;
+}
+.output-slot-1  {
+    align-items: center;
+    position: relative;
+    top: 16px;
+    left: 8px;
+}
+.output-slot-2 {
+    align-items: center;
+    position: relative;
+    top: 32px;
+    left: 0.1px;
+}
+.output-slot-3  {
+    align-items: center;
+    position: relative;
+    top: 16px;
+    right: 8px;
+}
+.input-slot  {
+    align-items: center;
+    position: relative;
+    top: 30px;
+    right: 0px;
+}
+.grid-container  {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.slot .item {
+    border-top: 2px solid rgba(55, 55, 55, 1);
+    border-left: 2px solid rgba(55, 55, 55, 1);
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    background-color: rgba(139, 139, 139, 1);
+}

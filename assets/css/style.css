@@ -1,37 +1,85 @@
 html {
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 body {
     font-size: 16px;
     overflow: auto;
-    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-size: 5%;
     background-image: url("../img/backgrounds.jpg");
     background-attachment: fixed;
+    image-rendering: pixelated;
 }
-
+.mobile, .mobile-background .page-section {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+    top: 50px;
+    position: absolute;
+    height: calc(100vh - 50px);
+}
+.mobile .page-section {
+    margin: -0.60em -0.85em;
+}
+a:link.button, a:visited.button, a:active.button, a:link.button-selected, a:visited.button-selected, a:active.button-selected {
+    color: rgb(255, 255, 255);
+}
+a:link {
+    color: rgb(0, 98, 177);
+}
+a:visited {
+    color: rgb(0, 98, 177);
+}
+a:active {
+    color: rgb(255, 234, 0);
+    background-color: transparent;
+}
+table {
+    padding: 5px;
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    border-top: 2px solid rgb(71, 71, 71);
+    border-collapse: collapse;
+}
+.table-header {
+    background-color: rgb(31, 31, 31);
+    border-collapse: collapse;
+}
 .page-section {
+    max-width: 2000px;
+    width: 100%;
     text-align: center;
     vertical-align: top;
     padding: 10px;
-    background-size: auto auto;
-    background-image: url("../img/header/body.png");
-    background-attachment: fixed;
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
+    background-color: rgb(42, 42, 42);
+    margin-bottom: 10px;
 }
-.header {
+div.home-header {
     align-items: center;
     width: 25%;
     height: 75%;
     margin: 20px;
 }
-div .home-header {
-    align-items: center;
-    width: 25%;
-    height: 75%;
-    margin: 20px;
+.navigation.mobile {
+    display: none;
 }
 .navigation {
-    padding: 10px;
-    display: inline-table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.button-background {
+    border: 5px solid black;
 }
 .button {
     text-decoration: none;
@@ -39,6 +87,9 @@ div .home-header {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(44, 44, 44);
+    border-left: 2px solid rgb(44, 44, 44);
     background-color: rgba(20, 20, 20, 0.5);
     transition: 0.3s;
 }
@@ -48,47 +99,76 @@ div .home-header {
     font-weight: bold;
     font-size: 16px;
     padding: 15px 50px;
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgba(59, 59, 59, 0.5);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
     transition: 0.3s;
 }
 .button:hover {
-    background-color: rgba(168, 168, 168, 0.5);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
+    background-color: rgb(84, 84, 84);
+    box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
 }
 .button:active {
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 29, 0.5);
+    box-shadow: 0px 0px 5px 5px rgb(49, 49, 49);
+}
+.header {
+    width: 25%;
+    height: 75%;
+    image-rendering: pixelated;
 }
 .box {
     color: white;
-    float: right;
-    margin: -30px 10px;
-    display: inline-flex;
-    width: 40%;
-    height: 10px;
+    display: flex;
+    width: auto;
+    justify-content: center;
 }
 .introduction {
     color: white;
     display: flex;
     flex-wrap: nowrap;
 }
-.titles {
-    display: inline-table;
-    margin: -3vh auto;
+.background {
+    max-width: 2000px;
+    width: 100%;
+    color: white;
+    border: 2px solid rgb(19, 19, 19);
+    border-top: 2px solid rgb(50, 50, 50);
+    border-left: 2px solid rgb(50, 50, 50);
+    background-color: rgb(45, 45, 45);
+}
+.no-padding {
+    line-height: 6.5px;
 }
 .layout {
-    margin: 15px 10%;
-    color: white;
-    border: 3px solid white;
-    border-radius: 10px;
+    margin: 0 auto;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.381);
+    color: white;
+    border: 2px solid rgb(30, 30, 30);
+    border-top: 2px solid rgb(71, 71, 71);
+    border-left: 2px solid rgb(71, 71, 71);
+    background-color: rgb(45, 45, 45);
+}
+.brewing-content {
+    padding: 10px;
+    color: white;
+    border: 2px solid rgb(2, 2, 2);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    background-color: rgb(63, 63, 63);
 }
 .layout-1 {
-    margin: 1px 10px;
     display: flex;
-    width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 5px;
     flex-basis: 190px;
     flex-wrap: nowrap;
     align-content: center;
@@ -96,72 +176,152 @@ div .home-header {
 
 }
 .layout-2 {
-    margin: 1px 10px;
+    margin: 0 auto;
+    width: 100%;
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
 }
-th, td {
+
+.supporting-box {
     padding: 10px;
     width: 380px;
-    border: 1px solid white;
     background-color: rgba(0, 0, 0, 0.381);
-    
-}
-table {
-    padding: 10px;
-    width: 380px;
-    border: 2px solid white;
-    margin: -80px 0px;
-    background-color: rgba(0, 0, 0, 0.381);
+    border-collapse: collapse;
 }
 .headers {
-    text-align: center;
-    padding: 1px;
-    background-color: rgb(59, 59, 59);
+    border-radius: 5px;
+    position: relative;
+    display: inline-flex;
+    border: 2px solid rgba(19, 19, 19);
+    border-top: 2px solid rgb(50, 50, 50);
+    border-left: 2px solid rgb(50, 50, 50);
+    background-color: rgb(32, 32, 32);
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.text-headers {
+    margin: 0px 10px;
+}
+.icons-headers {
+    align-self: center;
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+}
+.heading {
+    position: relative;
+    display: flex;
+    line-height: 1;
+}
+.text-icons {
+    align-self: center;
+    margin: 0px 10px;
+}
+.icons-text {
+    align-self: center;
+    display: flex;
+    padding: 1.5px;
+
 }
 .icons {
-    aspect-ratio: auto 24 / 24;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
 }
 .icons>a:first-child {
     margin-left: auto;
 }
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
+}
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li .dropdown {
+    width: 100%;
+    top: 10px;
+	position: relative;
+	display: inline-block;
+}
+.dropdown-icons {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+}
+.dropdown-header {
+    width: 60%;
+    margin: 12px;
+    image-rendering: pixelated;
+}
+.dropdown-content {
+    right: 0;
+    width: 110%;
+	display: none;
+    top: 80px;
+	position: absolute;
+	background-color: rgb(36, 37, 38);
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: rgb(255, 255, 255);
+	background-color: rgb(36, 37, 38);
+	padding: 0 16px;
+	height: 50px;
+	text-decoration: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+    flex-direction: column;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: rgb(72, 72, 72);
 }
 /*----- RESPONSIVE -----*/
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .navigation, .button, .button-selected {
-        display: block;
+    .button, .button-selected {
+        display: none;
     }
-    .header {
-        width: 75%;
-        height: 75%;
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        margin: 0 auto;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        z-index: 1;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        position: fixed;
+    }
+    .background {
+        position: relative;
+        top: 100px;
+        z-index: 0;
     }
     .page-section {
         background-size: 20vh auto;
-    }
-    .layout {
-        display: inline-block;
-        margin: 1px 10px;
-        width: 90%;
     }
     .titles {
         display: inline-table;
         margin: -2vh auto;
         width: 20%;
     }
-    .box {
-        display: inherit;
-        margin: 20% 11%;
-        width: 90%;
-        height: auto;
-    }
     .introduction {
+        text-align: center;
         display:  block;
     }
 }

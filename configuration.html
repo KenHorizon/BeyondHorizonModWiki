@@ -1,54 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
-    <title>Beyond Horizon | Wiki</title>
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- CSS SCRIPT HANDLE CUSTOMIZED ADDITIONS OF HTML -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <title>Beyond Horizon | Configuration</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+<header class="desktop">
+    <div class="page-section">
+        <div>
+            <a href="index.html">
+                <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+        </div>
+        <div class="navigation">
+            <a class="button-selected" href="index.html">Home</a>
+            <a class="button" href="changelog.html">Changelog</a>
+            <a class="button" href="index.html">Download</a>
+        </div>
+    </div>
+</header>
+<header class="mobile">
+    <div class="page-section">
+        <div class="navigation">
+            <a class="dropdown-header" href="index.html">
+                <img class="dropdown-header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon" />
+            </a>
+            <ul>
+                <li class="dropdown">
+                    <a>
+                        <img class="dropdown-icons" src="assets/img/icon/mobile_menu_icon.png" />
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="changelog.html">Changelog</a>
+                        <a href="index.html">Download</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
 <body>
-<div class="page-section">
-    <div>
-        <a href="index.html">
-            <img class="header" src="assets/img/title.png" alt="Beyond Horizon | Wiki - Patreon">
-        </a>
+    <div class="background">
+        <div class="layout">
+            <div>
+                <h1><img src="assets/img/icon/configuration.png" /> | Config</h1>
+                <h2>General</h2>
+                <p>
+                    In-Game Hud - Changes how In-Game's hud ||
+                    <b>[Param: Default: BeyondHorizon's Hud | Vanilla: Use vanilla's hud
+                        style | Simple: simplified hud]</b>
+                </p>
+                <p>
+                    Center Title - Make all Name Centered [True / False
+                    <b>Default: True</b>]
+                </p>
+                <p>
+                    Attribute Tooltip - Overhaul the look of attribute tooltip [True /
+                    False <b>Default: True</b>]
+                </p>
+                <p>
+                    Border Rarity - Change the Item's tooltip color depends on item's
+                    rarity [True / False <b>Default: True</b>]
+                </p>
+                <p>
+                    Border Tooltip Size - Change the Item's tooltip color depends on
+                    item's rarity [True / False <b>Default: True</b>]
+                </p>
+                <p>Tooltip Size - Set the Item Tooltip Border Size [Default: 200]</p>
+                <p>
+                    Enchantment Tooltip - Change the look of Enchantment Tooltip adding
+                    Icon Level instead of Numeric Nos [True / False
+                    <b>Default: True</b>]
+                </p>
+                <p>
+                    Enchantment Break Level - Vanilla behavior, when merging two items
+                    where the one on the right has an enchantment with a level beyond
+                    its max, (for example power 8) is to reset the level to the max (so
+                    the resulting item would have power 5), This setting disables that.
+                    It does not, however, allow creating enchantments beyond the cap,
+                    So, for example, merging two power V books would still result in
+                    power V [True / False <b>Default: False</b>]
+                </p>
+                <p>
+                    Item Rarity - Set Display Item's Rarity Below Item Name [True /
+                    False <b>Default: False</b>]
+                </p>
+                <p>
+                    Flip Gun Control
+                    <li>[True] - Firing [Right Click] Aiming [Left Click]</li>
+                    <li>
+                        [False] - Firing [Left Click] Aiming [Right Click] [True / False
+                        <b>Default: False</b>]
+                    </li>
+                </p>
+                <p>
+                    Anvil Cost Setting - Change Anvil Repair Cost Work [<b>Default: Remove Repair Scaling</b>]
+                </p>
+                <p>Anvil Cost Setting - Keep</p>
+                <p>Anvil Cost Setting - Remove</p>
+                <p>Anvil Cost Setting - Remove Repair Scaling</p>
+                <p>Anvil Cost Setting - Enchantment Only</p>
+                <p>
+                    Anvil Cost Cap - Settings for Anvil Level Cap [<b>Default: -1</b>]
+                </p>
+                <p>Anvil Cost Cap - [Param]</p>
+                <p>Anvil Cost Cap - [<b>-1 : Remove the level cap in anvil</b>]</p>
+                <p>Anvil Cost Cap - [<b>0 : Still same old vanilla mechanics</b>]</p>
+                <p>
+                    Anvil Break Chance - Allow to set anvil breaking chances when using
+                    [Param: 0% - 100% <b>Default: 12%</b>]
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="navigation">
-        <a class="button" href="index.html">Home</a>
-        <a class="button"  href="changelog.html">Changelog</a>
-        <a class="button" href="index.html">Download</a>
-    </div>
-</div> 
-<!--
- THE MAIN BODY OF THE SITE
--->
-<br>
-<div class="layout">
-    <div>
-        <h1><img src="assets/img/icon/configuration.png"> | Config</h1>
-        <h2>General</h2>
-        <p>Default Hud - Changes how ingame's hud || <b>[Param: Default: BeyondHorizon's Hud | Vanilla: Use vanilla's hud style | Simple: simplified hud]</b></p>
-        <p>Center Title - Make all Name Centered [True / False <b>Default: True</b>]</p>
-        <p>Attribute Tooltip - Overhaul the look of attribute tooltip [True / False <b>Default: True</b>]</p>
-        <p>Border Rarity - Change the Item's tooltip color depends on item's rarity [True / False <b>Default: True</b>]</p>
-        <p>Border Tooltip Size - Change the Item's tooltip color depends on item's rarity [True / False <b>Default: True</b>]</p>
-        <p>Tooltip Size - Set the Item Tooltip Border Size [Default: 200]</p>
-        <p>Enchantment Tooltip - Change the look of Enchantment Tooltip adding Icon Level instead of Numeric Nos [True / False <b>Default: True</b>]</p>
-        <p>Enchantment Break Level - Vanilla behavior, when merging two items where the one on the right has an enchantment with a level beyond its max, (for example power 8) is to reset the level to the max (so the resulting item would have power 5), This setting disables that. It does not, however, allow creating enchantments beyond the cap, So, for example, merging two power V books would still result in power V [True / False <b>Default: False</b>]</p>
-        <p>Item Rarity - Set Display Item's Rarity Below Item Name [True / False <b>Default: False</b>]</p>
-        <p>Flip Gun Control <li>[True] - Firing [Right Click] Aiming [Left Click] </li> <li> [False] - Firing [Left Click] Aiming [Right Click] [True / False <b>Default: False</b>]</li></p>
-        <p>Anvil Cost Setting - Change Anvil Repair Cost Work [<b>Default: Remove Repair Scaling</b>]</p>
-        <p>Anvil Cost Setting - Keep</p>
-        <p>Anvil Cost Setting - Remove</p>
-        <p>Anvil Cost Setting - Remove Repair Scaling</p>
-        <p>Anvil Cost Setting - Enchantment Only</p>
-        <p>Anvil Cost Cap - Settings for Anvil Level Cap [<b>Default: -1</b>]</p>
-        <p>Anvil Cost Cap - [Param]</p>
-        <p>Anvil Cost Cap - [<b>-1 : Remove the level cap in anvil</b>]</p>
-        <p>Anvil Cost Cap - [<b>0 : Still same old vanilla mechanics</b>]</p>
-        <p>Anvil Break Chance - Allow to set anvil breaking chances when using [Param: 0% - 100% <b>Default: 12%</b>]</p>
-    </div>
-</div>
 </body>
+
 </html>
